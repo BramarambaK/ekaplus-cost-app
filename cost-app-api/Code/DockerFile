@@ -1,0 +1,19 @@
+#FROM java:8
+FROM openjdk:8-jre-alpine
+ RUN set -x \
+        && apk add --no-cache
+RUN apk upgrade
+RUN apk add curl
+RUN apk add bash
+ARG version=x.x.x
+EXPOSE 8080
+ADD /build/libs/cost-app-${version}.jar cost-app.jar
+ENV jacoco_version 0.8.3
+RUN curl -f https://repo1.maven.org/maven2/org/jacoco/jacoco/$jacoco_version/jacoco-$jacoco_version.zip -o jacoco.zip && \
+    sum=$(cat jacoco.zip | md5sum | cut -d ' ' -f 1) && \
+    echo $sum && \
+    if [ ! $sum == $md5 ]; then exit 1; fi && \
+    mkdir /jacoco && \
+    unzip jacoco.zip -d /jacoco && \
+    rm jacoco.zip
+ENTRYPOINT ["java", "-jar","cost-app.jar"]

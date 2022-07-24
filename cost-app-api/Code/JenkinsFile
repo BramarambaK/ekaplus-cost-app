@@ -1,0 +1,93 @@
+ node {
+def version = 'test'
+def imageName = 'test'
+def finalImageName = 'test'
+def gradleFilePath ='cost-app-api/Code/';
+def tag = 'test';
+def app
+ step([$class: 'WsCleanup'])
+ 
+ stage('Checkout from Github') {
+
+  git branch: '${BranchName}',credentialsId:'rajeshkscredentials', url: 'https://github.com/ekaplus/cost-app.git'
+
+    }
+	
+	  stage('Get Version  & Image Name'){
+  
+    if (isUnix()) {
+        dir("${gradleFilePath}") {
+       version = sh returnStdout: true, script: "grep -iR '^version' gradle.properties | awk -F = '{print \$2 }'"
+	   version = version.replaceAll("[\r\n]+","");
+        echo "version is   -> ${version}"
+        
+        imageName = sh returnStdout: true, script: "grep -iR '^image_name' gradle.properties | awk -F = '{print \$2 }'"
+		imageName = imageName.replaceAll("[\r\n]+","");
+        echo "imageName is   -> ${imageName}"
+		finalImageName = "${imageName}";
+		 echo "Final Image Name is   -> ${finalImageName}"
+		 
+		 tag = "${version}_${BranchName}";
+		 echo "Final Tag Name is   -> ${tag}"
+
+        }
+        
+    } 
+  }
+  
+
+   stage('Gradle Build') {
+    if (isUnix()) {
+        dir("${gradleFilePath}") {
+           revision = sh(returnStdout: true, script: "git log -n 1 --pretty=format:'%H'").trim()
+           sh "gradle clean build publish -x test -Drevision=$revision bootJar"
+        }
+    } 
+}
+
+ stage('Remove existing Images if exists'){ 
+     if (isUnix()) {
+        
+      sh '''
+          echo  Removing image [ '''+finalImageName+''':latest ] if exists.
+          docker image rm  -f '''+finalImageName+''':latest 2>/dev/null || true
+           echo Removing image [ '''+finalImageName+''':'''+tag+''' ] if exists.
+           docker rmi  -f '''+finalImageName+''':'''+tag+''' 2>/dev/null || true
+          '''
+          
+         }
+   }
+
+stage('Build API Image') {
+        /* This builds the actual image; synonymous to
+         * docker build on the command line */
+      dir("${gradleFilePath}")  {
+       
+        sh '''
+		docker build --no-cache -f DockerFile -t 192.168.1.225:50000/'''+finalImageName+''':'''+tag+''' --build-arg version='''+version+''' .
+       '''
+      }
+    }
+
+stage('Push API to Registry ') {
+    
+           dir("${gradleFilePath}") {
+              
+         sh '''
+        
+        docker push 192.168.1.225:50000/'''+finalImageName+''':'''+tag+'''
+        docker image rm -f 192.168.1.225:50000/'''+finalImageName+''':'''+tag+''' 2>/dev/null || true
+        
+         '''
+          }
+    }
+    
+    stage('Deploy API') {
+    	echo "remove container with name -> ${imageName}-${BranchName} if exists"
+	 sh   "docker rm  -f ${imageName}-${BranchName} 2>/dev/null || true "
+    
+          sh "docker pull 192.168.1.225:50000/${finalImageName}:${tag}"
+          sh "docker run -d -p ${port}:8080 -p ${jacocoport}:36320 -e JAVA_TOOL_OPTIONS='-javaagent:/jacoco/lib/jacocoagent.jar=address=*,port=36320,destfile=jacoco-it.exec,output=tcpserver' --name ${imageName}-${BranchName} --env-file ${envFile}  192.168.1.225:50000/${finalImageName}:${tag}"
+
+    }
+}

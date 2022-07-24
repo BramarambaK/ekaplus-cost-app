@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- https://logback.qos.ch/manual/configuration.html -->
+<!-- For assistance related to logback-translator or configuration  -->
+<!-- files in general, please contact the logback user mailing list -->
+<!-- at http://www.qos.ch/mailman/listinfo/logback-user             -->
+<!--                                                                -->
+<!-- For professional support please see                            -->
+<!--    http://www.qos.ch/shop/products/professionalSupport         -->
+<!--                                                                -->
+<configuration>
+  <property name="service" value="CCA" />
+  <appender name="stdout" class="ch.qos.logback.core.ConsoleAppender">
+    <Target>System.out</Target>
+    <encoder>
+      <pattern>%d{yyyy-MM-dd HH:mm:ss} %-5p %X{RequestId}  %c{1}:%L - %m%n</pattern>
+    </encoder>
+  </appender>
+  <appender name="file" class="ch.qos.logback.core.rolling.RollingFileAppender">
+    <!--See also http://logback.qos.ch/manual/appenders.html#RollingFileAppender-->
+    <File>log/cost-app.log</File>
+    <encoder>
+      <pattern>%d{yyyy-MM-dd HH:mm:ss} %-5p %X{requestId}-${service} %c{1}:%L - %m%n</pattern>
+    </encoder>
+    <rollingPolicy class="ch.qos.logback.core.rolling.FixedWindowRollingPolicy">
+      <maxIndex>10</maxIndex>
+      <FileNamePattern>log/cost-app.log.%i</FileNamePattern>
+    </rollingPolicy>
+    <triggeringPolicy class="ch.qos.logback.core.rolling.SizeBasedTriggeringPolicy">
+      <MaxFileSize>5MB</MaxFileSize>
+    </triggeringPolicy>
+  </appender>
+  <logger name="org.springframework" level="ERROR"/>
+  <logger name="org.apache" level="ERROR" />
+  <logger name="com.eka.costapp" level="DEBUG" />
+  <logger name="springfox.documentation" level="OFF" />
+  <logger name="org.mongodb.driver" level="OFF" />
+  <logger name="org.mongodb.driver.cluster" level="OFF" />
+  <root level="DEBUG">
+    <appender-ref ref="stdout"/>
+    <appender-ref ref="file"/>
+  </root>
+</configuration>

@@ -1,0 +1,444 @@
+2020-04-27 14:02:43 DEBUG  o.h.v.m.ResourceBundleMessageInterpolator:89 - Loaded expression factory via original TCCL
+2020-04-27 14:02:43 DEBUG  o.h.v.i.e.ValidatorFactoryImpl:578 - HV000234: Using org.hibernate.validator.messageinterpolation.ResourceBundleMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2020-04-27 14:02:43 DEBUG  o.h.v.i.e.ValidatorFactoryImpl:579 - HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+2020-04-27 14:02:43 DEBUG  o.h.v.i.e.ValidatorFactoryImpl:580 - HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2020-04-27 14:02:43 DEBUG  o.h.v.i.e.ValidatorFactoryImpl:581 - HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2020-04-27 14:02:43 DEBUG  o.h.v.i.e.ValidatorFactoryImpl:582 - HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2020-04-27 14:02:43 INFO   c.e.c.CostApplication:50 - Starting CostApplication on EKA-BLR-L0009 with PID 26460 (D:\Projects\costApp_vikash_CCA-472\cost-app\costapp-api\Code\cost-app-api\bin\main started by Vikash.Kumar in D:\Projects\costApp_vikash_CCA-472\cost-app\costapp-api\Code\cost-app-api)
+2020-04-27 14:02:43 DEBUG  c.e.c.CostApplication:53 - Running with Spring Boot v2.1.1.RELEASE, Spring v5.1.3.RELEASE
+2020-04-27 14:02:43 INFO   c.e.c.CostApplication:675 - No active profile set, falling back to default profiles: default
+2020-04-27 14:02:46 DEBUG  o.h.v.i.e.r.TraversableResolvers:60 - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2020-04-27 14:02:46 DEBUG  o.h.v.m.ResourceBundleMessageInterpolator:89 - Loaded expression factory via original TCCL
+2020-04-27 14:02:46 DEBUG  o.h.v.i.e.r.TraversableResolvers:60 - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2020-04-27 14:02:46 DEBUG  o.h.v.i.e.ConfigurationImpl:148 - Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+2020-04-27 14:02:46 DEBUG  o.h.v.i.e.ConfigurationImpl:180 - Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+2020-04-27 14:02:46 DEBUG  o.h.v.i.e.ConfigurationImpl:194 - Setting custom ParameterNameProvider of type org.springframework.validation.beanvalidation.LocalValidatorFactoryBean$1
+2020-04-27 14:02:46 DEBUG  o.h.v.i.x.c.ValidationXmlParser:120 - Trying to load META-INF/validation.xml for XML based Validator configuration.
+2020-04-27 14:02:46 DEBUG  o.h.v.i.x.c.ResourceLoaderHelper:53 - Trying to load META-INF/validation.xml via user class loader
+2020-04-27 14:02:46 DEBUG  o.h.v.i.x.c.ResourceLoaderHelper:60 - Trying to load META-INF/validation.xml via TCCL
+2020-04-27 14:02:46 DEBUG  o.h.v.i.x.c.ResourceLoaderHelper:66 - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2020-04-27 14:02:46 DEBUG  o.h.v.i.x.c.ValidationXmlParser:127 - No META-INF/validation.xml found. Using annotation based configuration only.
+2020-04-27 14:02:46 DEBUG  o.h.v.i.e.ValidatorFactoryImpl:578 - HV000234: Using org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2020-04-27 14:02:46 DEBUG  o.h.v.i.e.ValidatorFactoryImpl:579 - HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+2020-04-27 14:02:46 DEBUG  o.h.v.i.e.ValidatorFactoryImpl:580 - HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2020-04-27 14:02:46 DEBUG  o.h.v.i.e.ValidatorFactoryImpl:581 - HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2020-04-27 14:02:46 DEBUG  o.h.v.i.e.ValidatorFactoryImpl:582 - HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2020-04-27 14:02:47 DEBUG  r.u.Loggers$LoggerFactory:230 - Using Slf4j logging framework
+2020-04-27 14:02:47 DEBUG  r.c.p.Hooks:230 - Enabling stacktrace debugging via onOperatorDebug
+2020-04-27 14:02:47 DEBUG  r.c.p.Hooks:235 - Hooking onEachOperator: onOperatorDebug
+2020-04-27 14:02:47 DEBUG  i.n.u.i.l.InternalLoggerFactory:43 - Using SLF4J as the default logging framework
+2020-04-27 14:02:47 DEBUG  i.n.u.i.PlatformDependent:959 - Platform: Windows
+2020-04-27 14:02:47 DEBUG  i.n.u.i.PlatformDependent0:395 - -Dio.netty.noUnsafe: false
+2020-04-27 14:02:47 DEBUG  i.n.u.i.PlatformDependent0:871 - Java version: 8
+2020-04-27 14:02:47 DEBUG  i.n.u.i.PlatformDependent0:120 - sun.misc.Unsafe.theUnsafe: available
+2020-04-27 14:02:47 DEBUG  i.n.u.i.PlatformDependent0:144 - sun.misc.Unsafe.copyMemory: available
+2020-04-27 14:02:47 DEBUG  i.n.u.i.PlatformDependent0:182 - java.nio.Buffer.address: available
+2020-04-27 14:02:47 DEBUG  i.n.u.i.PlatformDependent0:243 - direct buffer constructor: available
+2020-04-27 14:02:47 DEBUG  i.n.u.i.PlatformDependent0:313 - java.nio.Bits.unaligned: available, true
+2020-04-27 14:02:47 DEBUG  i.n.u.i.PlatformDependent0:378 - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9
+2020-04-27 14:02:47 DEBUG  i.n.u.i.PlatformDependent0:385 - java.nio.DirectByteBuffer.<init>(long, int): available
+2020-04-27 14:02:47 DEBUG  i.n.u.i.PlatformDependent:996 - sun.misc.Unsafe: available
+2020-04-27 14:02:47 DEBUG  i.n.u.i.PlatformDependent:1090 - -Dio.netty.tmpdir: C:\Users\VIKASH~1.KUM\AppData\Local\Temp (java.io.tmpdir)
+2020-04-27 14:02:47 DEBUG  i.n.u.i.PlatformDependent:1169 - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2020-04-27 14:02:47 DEBUG  i.n.u.i.PlatformDependent:158 - -Dio.netty.maxDirectMemory: 3786407936 bytes
+2020-04-27 14:02:47 DEBUG  i.n.u.i.PlatformDependent:164 - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+2020-04-27 14:02:47 DEBUG  i.n.u.i.CleanerJava6:92 - java.nio.ByteBuffer.cleaner(): available
+2020-04-27 14:02:47 DEBUG  i.n.u.i.PlatformDependent:184 - -Dio.netty.noPreferDirect: false
+2020-04-27 14:02:47 DEBUG  r.n.t.TcpResources:235 - [http] resources will use the default LoopResources: DefaultLoopResources {prefix=reactor-http, daemon=true, selectCount=8, workerCount=8}
+2020-04-27 14:02:47 DEBUG  r.n.t.TcpResources:235 - [http] resources will use the default ConnectionProvider: PooledConnectionProvider {name=http, poolFactory=reactor.netty.resources.ConnectionProvider$$Lambda$472/1755978066@8c7ee85}
+2020-04-27 14:02:47 DEBUG  i.n.u.ResourceLeakDetector:121 - -Dio.netty.leakDetection.level: simple
+2020-04-27 14:02:47 DEBUG  i.n.u.ResourceLeakDetector:122 - -Dio.netty.leakDetection.targetRecords: 4
+2020-04-27 14:02:47 DEBUG  i.n.b.PooledByteBufAllocator:120 - -Dio.netty.allocator.numHeapArenas: 16
+2020-04-27 14:02:47 DEBUG  i.n.b.PooledByteBufAllocator:121 - -Dio.netty.allocator.numDirectArenas: 16
+2020-04-27 14:02:47 DEBUG  i.n.b.PooledByteBufAllocator:123 - -Dio.netty.allocator.pageSize: 8192
+2020-04-27 14:02:47 DEBUG  i.n.b.PooledByteBufAllocator:128 - -Dio.netty.allocator.maxOrder: 11
+2020-04-27 14:02:47 DEBUG  i.n.b.PooledByteBufAllocator:132 - -Dio.netty.allocator.chunkSize: 16777216
+2020-04-27 14:02:47 DEBUG  i.n.b.PooledByteBufAllocator:133 - -Dio.netty.allocator.tinyCacheSize: 512
+2020-04-27 14:02:47 DEBUG  i.n.b.PooledByteBufAllocator:134 - -Dio.netty.allocator.smallCacheSize: 256
+2020-04-27 14:02:47 DEBUG  i.n.b.PooledByteBufAllocator:135 - -Dio.netty.allocator.normalCacheSize: 64
+2020-04-27 14:02:47 DEBUG  i.n.b.PooledByteBufAllocator:136 - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+2020-04-27 14:02:47 DEBUG  i.n.b.PooledByteBufAllocator:137 - -Dio.netty.allocator.cacheTrimInterval: 8192
+2020-04-27 14:02:47 DEBUG  i.n.b.PooledByteBufAllocator:138 - -Dio.netty.allocator.useCacheForAllThreads: true
+2020-04-27 14:02:47 DEBUG  i.n.u.i.InternalThreadLocalMap:54 - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+2020-04-27 14:02:47 DEBUG  i.n.u.i.InternalThreadLocalMap:57 - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+2020-04-27 14:02:47 DEBUG  i.n.u.NetUtil:139 - -Djava.net.preferIPv4Stack: false
+2020-04-27 14:02:47 DEBUG  i.n.u.NetUtil:140 - -Djava.net.preferIPv6Addresses: false
+2020-04-27 14:02:48 DEBUG  i.n.u.NetUtil:224 - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+2020-04-27 14:02:48 DEBUG  i.n.u.NetUtil:289 - Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+2020-04-27 14:02:48 INFO   c.e.c.CostApplication:59 - Started CostApplication in 4.871 seconds (JVM running for 5.517)
+2020-04-27 14:04:24 DEBUG  c.e.c.c.ContextProvider:29 - Setting currentContext to java.lang.ThreadLocal@68270d5b
+2020-04-27 14:04:24 DEBUG  c.e.c.c.v.CostAppV2Controller:81 - In Cost Controller v2 ConvertDraftToActualCost method execution started
+2020-04-27 14:04:24 DEBUG  c.e.c.s.v.CostAppV2Service:81 - calling connect GET data with headers&#x3a;&#x7b;Authorization&#x3d;&#x5b;eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOlsicmVzdF9hcGkiXSwidXNlcl9uYW1lIjoiQWx2ZWFuQGVrYXBsdXMuY29tIiwic2NvcGUiOlsidHJ1c3QiLCJyZWFkIiwid3JpdGUiXSwiZXhwIjoxNTg3NjUxNTA4LCJhdXRob3JpdGllcyI6WyIxNzIuMTcuMC4xIl0sImp0aSI6IjgzNTk0MWM0LTk1NmEtNDNiMS05NDU2LWJkYWFhMDgxNmVlYyIsImNsaWVudF9pZCI6Ijc2NThiYWY2LTk2OTctMzM2Yi1iY2VlLWM4NWM3ZDI0Y2JlZSIsInRpZCI6IjMwYmIzODI1LWU4ZjYtMzFjYy1hMDc1LWMwZjg3YmI0OTc4YyJ9.mXgLT61FI4AznJDLfp6WonTMZYJ5U60yDHsgYVO6mog&#x5d;, Content-Type&#x3d;&#x5b;application&#x2f;json&#x3b;charset&#x3d;UTF-8&#x5d;, X-TenantID&#x3d;&#x5b;review9&#x5d;, Accept&#x3d;&#x5b;application&#x2f;json&#x3b;charset&#x3d;UTF-8&#x5d;&#x7d; ,payload&#x7b;&quot;filterData&quot;&#x3a;&#x7b;&quot;filter&quot;&#x3a;&#x5b;&#x7b;&quot;fieldName&quot;&#x3a;&quot;draftEstimateNo&quot;,&quot;value&quot;&#x3a;&#x5b;&quot;1234&quot;&#x5d;,&quot;operator&quot;&#x3a;&quot;in&quot;&#x7d;&#x5d;&#x7d;&#x7d;
+2020-04-27 14:04:46 ERROR  c.e.c.s.v.CostAppV2Service:33 - Exception while calling ConvertDraftToActualCost I&#x2f;O error on GET request for &quot;http&#x3a;&#x2f;&#x2f;172.16.5.119&#x3a;5006&#x2f;data&#x2f;d33143ac-4164-4a3f-8d30-61d845c9eeed&#x2f;00189ca9-cfc1-4327-95ac-f937f22deb60&quot;&#x3a; Connect to 172.16.5.119&#x3a;5006 &#x5b;&#x2f;172.16.5.119&#x5d; failed&#x3a; Connection timed out&#x3a; connect&#x3b; nested exception is org.apache.http.conn.HttpHostConnectException&#x3a; Connect to 172.16.5.119&#x3a;5006 &#x5b;&#x2f;172.16.5.119&#x5d; failed&#x3a; Connection timed out&#x3a; connect
+2020-04-27 14:17:35 DEBUG  c.e.c.c.ContextProvider:29 - Setting currentContext to java.lang.ThreadLocal@68270d5b
+2020-04-27 14:17:35 DEBUG  c.e.c.c.v.CostAppV2Controller:81 - In Cost Controller v2 ConvertDraftToActualCost method execution started
+2020-04-27 14:17:35 DEBUG  c.e.c.s.v.CostAppV2Service:81 - calling connect GET data with headers&#x3a;&#x7b;Authorization&#x3d;&#x5b;eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOlsicmVzdF9hcGkiXSwidXNlcl9uYW1lIjoiQWx2ZWFuQGVrYXBsdXMuY29tIiwic2NvcGUiOlsidHJ1c3QiLCJyZWFkIiwid3JpdGUiXSwiZXhwIjoxNTg3NjUxNTA4LCJhdXRob3JpdGllcyI6WyIxNzIuMTcuMC4xIl0sImp0aSI6IjgzNTk0MWM0LTk1NmEtNDNiMS05NDU2LWJkYWFhMDgxNmVlYyIsImNsaWVudF9pZCI6Ijc2NThiYWY2LTk2OTctMzM2Yi1iY2VlLWM4NWM3ZDI0Y2JlZSIsInRpZCI6IjMwYmIzODI1LWU4ZjYtMzFjYy1hMDc1LWMwZjg3YmI0OTc4YyJ9.mXgLT61FI4AznJDLfp6WonTMZYJ5U60yDHsgYVO6mog&#x5d;, Content-Type&#x3d;&#x5b;application&#x2f;json&#x3b;charset&#x3d;UTF-8&#x5d;, X-TenantID&#x3d;&#x5b;review4&#x5d;, Accept&#x3d;&#x5b;application&#x2f;json&#x3b;charset&#x3d;UTF-8&#x5d;&#x7d; ,payload&#x7b;&quot;filterData&quot;&#x3a;&#x7b;&quot;filter&quot;&#x3a;&#x5b;&#x7b;&quot;fieldName&quot;&#x3a;&quot;draftEstimateNo&quot;,&quot;value&quot;&#x3a;&#x5b;&quot;1234&quot;&#x5d;,&quot;operator&quot;&#x3a;&quot;in&quot;&#x7d;&#x5d;&#x7d;&#x7d;
+2020-04-27 14:17:38 ERROR  c.e.c.s.v.CostAppV2Service:33 - Exception while calling ConvertDraftToActualCost 401 
+2020-04-27 14:17:47 DEBUG  c.e.c.c.ContextProvider:29 - Setting currentContext to java.lang.ThreadLocal@68270d5b
+2020-04-27 14:17:47 DEBUG  c.e.c.c.v.CostAppV2Controller:81 - In Cost Controller v2 ConvertDraftToActualCost method execution started
+2020-04-27 14:17:47 DEBUG  c.e.c.s.v.CostAppV2Service:81 - calling connect GET data with headers&#x3a;&#x7b;Authorization&#x3d;&#x5b;eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOlsicmVzdF9hcGkiXSwidXNlcl9uYW1lIjoiQWx2ZWFuQGVrYXBsdXMuY29tIiwic2NvcGUiOlsidHJ1c3QiLCJyZWFkIiwid3JpdGUiXSwiZXhwIjoxNTg3NjUxNTA4LCJhdXRob3JpdGllcyI6WyIxNzIuMTcuMC4xIl0sImp0aSI6IjgzNTk0MWM0LTk1NmEtNDNiMS05NDU2LWJkYWFhMDgxNmVlYyIsImNsaWVudF9pZCI6Ijc2NThiYWY2LTk2OTctMzM2Yi1iY2VlLWM4NWM3ZDI0Y2JlZSIsInRpZCI6IjMwYmIzODI1LWU4ZjYtMzFjYy1hMDc1LWMwZjg3YmI0OTc4YyJ9.mXgLT61FI4AznJDLfp6WonTMZYJ5U60yDHsgYVO6mog&#x5d;, Content-Type&#x3d;&#x5b;application&#x2f;json&#x3b;charset&#x3d;UTF-8&#x5d;, X-TenantID&#x3d;&#x5b;review4&#x5d;, Accept&#x3d;&#x5b;application&#x2f;json&#x3b;charset&#x3d;UTF-8&#x5d;&#x7d;, and payload&#x3a;&#x7b;&quot;filterData&quot;&#x3a;&#x7b;&quot;filter&quot;&#x3a;&#x5b;&#x7b;&quot;fieldName&quot;&#x3a;&quot;draftEstimateNo&quot;,&quot;value&quot;&#x3a;&#x5b;&quot;1234&quot;&#x5d;,&quot;operator&quot;&#x3a;&quot;in&quot;&#x7d;&#x5d;&#x7d;&#x7d;
+2020-04-27 14:17:47 ERROR  c.e.c.s.v.CostAppV2Service:33 - Exception while calling ConvertDraftToActualCost 401 
+2020-04-27 14:19:01 INFO   c.e.c.CostApplication:50 - Starting CostApplication on EKA-BLR-L0009 with PID 20860 (D:\Projects\costApp_vikash_CCA-472\cost-app\costapp-api\Code\cost-app-api\bin\main started by Vikash.Kumar in D:\Projects\costApp_vikash_CCA-472\cost-app\costapp-api\Code\cost-app-api)
+2020-04-27 14:19:01 DEBUG  c.e.c.CostApplication:53 - Running with Spring Boot v2.1.1.RELEASE, Spring v5.1.3.RELEASE
+2020-04-27 14:19:01 INFO   c.e.c.CostApplication:675 - No active profile set, falling back to default profiles: default
+2020-04-27 14:19:01 DEBUG  o.h.v.m.ResourceBundleMessageInterpolator:89 - Loaded expression factory via original TCCL
+2020-04-27 14:19:01 DEBUG  o.h.v.i.e.ValidatorFactoryImpl:578 - HV000234: Using org.hibernate.validator.messageinterpolation.ResourceBundleMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2020-04-27 14:19:01 DEBUG  o.h.v.i.e.ValidatorFactoryImpl:579 - HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+2020-04-27 14:19:01 DEBUG  o.h.v.i.e.ValidatorFactoryImpl:580 - HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2020-04-27 14:19:01 DEBUG  o.h.v.i.e.ValidatorFactoryImpl:581 - HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2020-04-27 14:19:01 DEBUG  o.h.v.i.e.ValidatorFactoryImpl:582 - HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2020-04-27 14:19:05 DEBUG  o.h.v.i.e.r.TraversableResolvers:60 - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2020-04-27 14:19:05 DEBUG  o.h.v.m.ResourceBundleMessageInterpolator:89 - Loaded expression factory via original TCCL
+2020-04-27 14:19:05 DEBUG  o.h.v.i.e.r.TraversableResolvers:60 - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2020-04-27 14:19:05 DEBUG  o.h.v.i.e.ConfigurationImpl:148 - Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+2020-04-27 14:19:05 DEBUG  o.h.v.i.e.ConfigurationImpl:180 - Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+2020-04-27 14:19:05 DEBUG  o.h.v.i.e.ConfigurationImpl:194 - Setting custom ParameterNameProvider of type org.springframework.validation.beanvalidation.LocalValidatorFactoryBean$1
+2020-04-27 14:19:05 DEBUG  o.h.v.i.x.c.ValidationXmlParser:120 - Trying to load META-INF/validation.xml for XML based Validator configuration.
+2020-04-27 14:19:05 DEBUG  o.h.v.i.x.c.ResourceLoaderHelper:53 - Trying to load META-INF/validation.xml via user class loader
+2020-04-27 14:19:05 DEBUG  o.h.v.i.x.c.ResourceLoaderHelper:60 - Trying to load META-INF/validation.xml via TCCL
+2020-04-27 14:19:05 DEBUG  o.h.v.i.x.c.ResourceLoaderHelper:66 - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2020-04-27 14:19:05 DEBUG  o.h.v.i.x.c.ValidationXmlParser:127 - No META-INF/validation.xml found. Using annotation based configuration only.
+2020-04-27 14:19:05 DEBUG  o.h.v.i.e.ValidatorFactoryImpl:578 - HV000234: Using org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2020-04-27 14:19:05 DEBUG  o.h.v.i.e.ValidatorFactoryImpl:579 - HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+2020-04-27 14:19:05 DEBUG  o.h.v.i.e.ValidatorFactoryImpl:580 - HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2020-04-27 14:19:05 DEBUG  o.h.v.i.e.ValidatorFactoryImpl:581 - HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2020-04-27 14:19:05 DEBUG  o.h.v.i.e.ValidatorFactoryImpl:582 - HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2020-04-27 14:19:07 DEBUG  r.u.Loggers$LoggerFactory:230 - Using Slf4j logging framework
+2020-04-27 14:19:07 DEBUG  r.c.p.Hooks:230 - Enabling stacktrace debugging via onOperatorDebug
+2020-04-27 14:19:07 DEBUG  r.c.p.Hooks:235 - Hooking onEachOperator: onOperatorDebug
+2020-04-27 14:19:07 DEBUG  i.n.u.i.l.InternalLoggerFactory:43 - Using SLF4J as the default logging framework
+2020-04-27 14:19:07 DEBUG  i.n.u.i.PlatformDependent:959 - Platform: Windows
+2020-04-27 14:19:07 DEBUG  i.n.u.i.PlatformDependent0:395 - -Dio.netty.noUnsafe: false
+2020-04-27 14:19:07 DEBUG  i.n.u.i.PlatformDependent0:871 - Java version: 8
+2020-04-27 14:19:07 DEBUG  i.n.u.i.PlatformDependent0:120 - sun.misc.Unsafe.theUnsafe: available
+2020-04-27 14:19:07 DEBUG  i.n.u.i.PlatformDependent0:144 - sun.misc.Unsafe.copyMemory: available
+2020-04-27 14:19:07 DEBUG  i.n.u.i.PlatformDependent0:182 - java.nio.Buffer.address: available
+2020-04-27 14:19:07 DEBUG  i.n.u.i.PlatformDependent0:243 - direct buffer constructor: available
+2020-04-27 14:19:07 DEBUG  i.n.u.i.PlatformDependent0:313 - java.nio.Bits.unaligned: available, true
+2020-04-27 14:19:07 DEBUG  i.n.u.i.PlatformDependent0:378 - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9
+2020-04-27 14:19:07 DEBUG  i.n.u.i.PlatformDependent0:385 - java.nio.DirectByteBuffer.<init>(long, int): available
+2020-04-27 14:19:07 DEBUG  i.n.u.i.PlatformDependent:996 - sun.misc.Unsafe: available
+2020-04-27 14:19:07 DEBUG  i.n.u.i.PlatformDependent:1090 - -Dio.netty.tmpdir: C:\Users\VIKASH~1.KUM\AppData\Local\Temp (java.io.tmpdir)
+2020-04-27 14:19:07 DEBUG  i.n.u.i.PlatformDependent:1169 - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2020-04-27 14:19:07 DEBUG  i.n.u.i.PlatformDependent:158 - -Dio.netty.maxDirectMemory: 3786407936 bytes
+2020-04-27 14:19:07 DEBUG  i.n.u.i.PlatformDependent:164 - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+2020-04-27 14:19:07 DEBUG  i.n.u.i.CleanerJava6:92 - java.nio.ByteBuffer.cleaner(): available
+2020-04-27 14:19:07 DEBUG  i.n.u.i.PlatformDependent:184 - -Dio.netty.noPreferDirect: false
+2020-04-27 14:19:07 DEBUG  r.n.t.TcpResources:235 - [http] resources will use the default LoopResources: DefaultLoopResources {prefix=reactor-http, daemon=true, selectCount=8, workerCount=8}
+2020-04-27 14:19:07 DEBUG  r.n.t.TcpResources:235 - [http] resources will use the default ConnectionProvider: PooledConnectionProvider {name=http, poolFactory=reactor.netty.resources.ConnectionProvider$$Lambda$472/621429988@feb9d1c}
+2020-04-27 14:19:07 DEBUG  i.n.u.ResourceLeakDetector:121 - -Dio.netty.leakDetection.level: simple
+2020-04-27 14:19:07 DEBUG  i.n.u.ResourceLeakDetector:122 - -Dio.netty.leakDetection.targetRecords: 4
+2020-04-27 14:19:07 DEBUG  i.n.b.PooledByteBufAllocator:120 - -Dio.netty.allocator.numHeapArenas: 16
+2020-04-27 14:19:07 DEBUG  i.n.b.PooledByteBufAllocator:121 - -Dio.netty.allocator.numDirectArenas: 16
+2020-04-27 14:19:07 DEBUG  i.n.b.PooledByteBufAllocator:123 - -Dio.netty.allocator.pageSize: 8192
+2020-04-27 14:19:07 DEBUG  i.n.b.PooledByteBufAllocator:128 - -Dio.netty.allocator.maxOrder: 11
+2020-04-27 14:19:07 DEBUG  i.n.b.PooledByteBufAllocator:132 - -Dio.netty.allocator.chunkSize: 16777216
+2020-04-27 14:19:07 DEBUG  i.n.b.PooledByteBufAllocator:133 - -Dio.netty.allocator.tinyCacheSize: 512
+2020-04-27 14:19:07 DEBUG  i.n.b.PooledByteBufAllocator:134 - -Dio.netty.allocator.smallCacheSize: 256
+2020-04-27 14:19:07 DEBUG  i.n.b.PooledByteBufAllocator:135 - -Dio.netty.allocator.normalCacheSize: 64
+2020-04-27 14:19:07 DEBUG  i.n.b.PooledByteBufAllocator:136 - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+2020-04-27 14:19:07 DEBUG  i.n.b.PooledByteBufAllocator:137 - -Dio.netty.allocator.cacheTrimInterval: 8192
+2020-04-27 14:19:07 DEBUG  i.n.b.PooledByteBufAllocator:138 - -Dio.netty.allocator.useCacheForAllThreads: true
+2020-04-27 14:19:07 DEBUG  i.n.u.i.InternalThreadLocalMap:54 - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+2020-04-27 14:19:07 DEBUG  i.n.u.i.InternalThreadLocalMap:57 - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+2020-04-27 14:19:07 DEBUG  i.n.u.NetUtil:139 - -Djava.net.preferIPv4Stack: false
+2020-04-27 14:19:07 DEBUG  i.n.u.NetUtil:140 - -Djava.net.preferIPv6Addresses: false
+2020-04-27 14:19:07 DEBUG  i.n.u.NetUtil:224 - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+2020-04-27 14:19:07 DEBUG  i.n.u.NetUtil:289 - Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+2020-04-27 14:19:07 INFO   c.e.c.CostApplication:59 - Started CostApplication in 6.688 seconds (JVM running for 8.374)
+2020-04-27 14:19:45 DEBUG  c.e.c.c.ContextProvider:29 - Setting currentContext to java.lang.ThreadLocal@3ad0ca68
+2020-04-27 14:20:53 DEBUG  c.e.c.c.ContextProvider:29 - Setting currentContext to java.lang.ThreadLocal@3ad0ca68
+2020-04-27 14:20:58 DEBUG  c.e.c.c.v.CostAppV2Controller:81 - In Cost Controller v2 ConvertDraftToActualCost method execution started
+2020-04-27 14:22:06 DEBUG  c.e.c.s.v.CostAppV2Service:81 - calling connect GET data with headers&#x3a;&#x7b;Authorization&#x3d;&#x5b;eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOlsicmVzdF9hcGkiXSwidXNlcl9uYW1lIjoiQWx2ZWFuQGVrYXBsdXMuY29tIiwic2NvcGUiOlsidHJ1c3QiLCJyZWFkIiwid3JpdGUiXSwiZXhwIjoxNTg3NjUxNTA4LCJhdXRob3JpdGllcyI6WyIxNzIuMTcuMC4xIl0sImp0aSI6IjgzNTk0MWM0LTk1NmEtNDNiMS05NDU2LWJkYWFhMDgxNmVlYyIsImNsaWVudF9pZCI6Ijc2NThiYWY2LTk2OTctMzM2Yi1iY2VlLWM4NWM3ZDI0Y2JlZSIsInRpZCI6IjMwYmIzODI1LWU4ZjYtMzFjYy1hMDc1LWMwZjg3YmI0OTc4YyJ9.mXgLT61FI4AznJDLfp6WonTMZYJ5U60yDHsgYVO6mog&#x5d;, Content-Type&#x3d;&#x5b;application&#x2f;json&#x3b;charset&#x3d;UTF-8&#x5d;, X-TenantID&#x3d;&#x5b;review4&#x5d;, Accept&#x3d;&#x5b;application&#x2f;json&#x3b;charset&#x3d;UTF-8&#x5d;&#x7d;, and payload&#x3a;&#x7b;&quot;filterData&quot;&#x3a;&#x7b;&quot;filter&quot;&#x3a;&#x5b;&#x7b;&quot;fieldName&quot;&#x3a;&quot;draftEstimateNo&quot;,&quot;value&quot;&#x3a;&#x5b;&quot;1234&quot;&#x5d;,&quot;operator&quot;&#x3a;&quot;in&quot;&#x7d;&#x5d;&#x7d;&#x7d;
+2020-04-27 14:24:06 ERROR  c.e.c.s.v.CostAppV2Service:33 - Exception while calling ConvertDraftToActualCost 401 
+2020-04-27 14:24:06 ERROR  o.a.c.c.C.[.[.[.[dispatcherServlet]:175 - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is com.eka.costapp.exception.CostAppException: Error in getting/saving data from/to connect due to :401 ] with root cause
+com.eka.costapp.exception.CostAppException: Error in getting/saving data from/to connect due to :401 
+	at com.eka.costapp.service.v2.CostAppV2Service.ConvertDraftToActualCost(CostAppV2Service.java:149)
+	at com.eka.costapp.controller.v2.CostAppV2Controller.ConvertDraftToActualCost(CostAppV2Controller.java:44)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:189)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:102)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:800)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1038)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:908)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:660)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:791)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1417)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Unknown Source)
+2020-04-27 14:24:07 DEBUG  c.e.c.c.v.CostAppV2Controller:81 - In Cost Controller v2 ConvertDraftToActualCost method execution started
+2020-04-27 14:24:07 DEBUG  c.e.c.s.v.CostAppV2Service:81 - calling connect GET data with headers&#x3a;&#x7b;Authorization&#x3d;&#x5b;eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOlsicmVzdF9hcGkiXSwidXNlcl9uYW1lIjoiQWx2ZWFuQGVrYXBsdXMuY29tIiwic2NvcGUiOlsidHJ1c3QiLCJyZWFkIiwid3JpdGUiXSwiZXhwIjoxNTg3NjUxNTA4LCJhdXRob3JpdGllcyI6WyIxNzIuMTcuMC4xIl0sImp0aSI6IjgzNTk0MWM0LTk1NmEtNDNiMS05NDU2LWJkYWFhMDgxNmVlYyIsImNsaWVudF9pZCI6Ijc2NThiYWY2LTk2OTctMzM2Yi1iY2VlLWM4NWM3ZDI0Y2JlZSIsInRpZCI6IjMwYmIzODI1LWU4ZjYtMzFjYy1hMDc1LWMwZjg3YmI0OTc4YyJ9.mXgLT61FI4AznJDLfp6WonTMZYJ5U60yDHsgYVO6mog&#x5d;, Content-Type&#x3d;&#x5b;application&#x2f;json&#x3b;charset&#x3d;UTF-8&#x5d;, X-TenantID&#x3d;&#x5b;review4&#x5d;, Accept&#x3d;&#x5b;application&#x2f;json&#x3b;charset&#x3d;UTF-8&#x5d;&#x7d;, and payload&#x3a;&#x7b;&quot;filterData&quot;&#x3a;&#x7b;&quot;filter&quot;&#x3a;&#x5b;&#x7b;&quot;fieldName&quot;&#x3a;&quot;draftEstimateNo&quot;,&quot;value&quot;&#x3a;&#x5b;&quot;1234&quot;&#x5d;,&quot;operator&quot;&#x3a;&quot;in&quot;&#x7d;&#x5d;&#x7d;&#x7d;
+2020-04-27 14:24:07 ERROR  c.e.c.s.v.CostAppV2Service:33 - Exception while calling ConvertDraftToActualCost 401 
+2020-04-27 14:24:12 DEBUG  c.e.c.c.ContextProvider:29 - Setting currentContext to java.lang.ThreadLocal@3ad0ca68
+2020-04-27 14:24:16 DEBUG  c.e.c.c.v.CostAppV2Controller:81 - In Cost Controller v2 ConvertDraftToActualCost method execution started
+2020-04-27 14:24:23 DEBUG  c.e.c.s.v.CostAppV2Service:81 - calling connect GET data with headers&#x3a;&#x7b;Authorization&#x3d;&#x5b;eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOlsicmVzdF9hcGkiXSwidXNlcl9uYW1lIjoiQWx2ZWFuQGVrYXBsdXMuY29tIiwic2NvcGUiOlsidHJ1c3QiLCJyZWFkIiwid3JpdGUiXSwiZXhwIjoxNTg3NjUxNTA4LCJhdXRob3JpdGllcyI6WyIxNzIuMTcuMC4xIl0sImp0aSI6IjgzNTk0MWM0LTk1NmEtNDNiMS05NDU2LWJkYWFhMDgxNmVlYyIsImNsaWVudF9pZCI6Ijc2NThiYWY2LTk2OTctMzM2Yi1iY2VlLWM4NWM3ZDI0Y2JlZSIsInRpZCI6IjMwYmIzODI1LWU4ZjYtMzFjYy1hMDc1LWMwZjg3YmI0OTc4YyJ9.mXgLT61FI4AznJDLfp6WonTMZYJ5U60yDHsgYVO6mog&#x5d;, Content-Type&#x3d;&#x5b;application&#x2f;json&#x3b;charset&#x3d;UTF-8&#x5d;, X-TenantID&#x3d;&#x5b;review4&#x5d;, Accept&#x3d;&#x5b;application&#x2f;json&#x3b;charset&#x3d;UTF-8&#x5d;&#x7d;, and payload&#x3a;&#x7b;&quot;filterData&quot;&#x3a;&#x7b;&quot;filter&quot;&#x3a;&#x5b;&#x7b;&quot;fieldName&quot;&#x3a;&quot;draftEstimateNo&quot;,&quot;value&quot;&#x3a;&#x5b;&quot;1234&quot;&#x5d;,&quot;operator&quot;&#x3a;&quot;in&quot;&#x7d;&#x5d;&#x7d;&#x7d;
+2020-04-27 14:30:16 DEBUG  c.e.c.c.ContextProvider:29 - Setting currentContext to java.lang.ThreadLocal@3ad0ca68
+2020-04-27 14:30:24 ERROR  c.e.c.s.v.CostAppV2Service:33 - Exception while calling ConvertDraftToActualCost 401 
+2020-04-27 14:30:34 DEBUG  c.e.c.c.v.CostAppV2Controller:81 - In Cost Controller v2 ConvertDraftToActualCost method execution started
+2020-04-27 14:30:34 DEBUG  c.e.c.s.v.CostAppV2Service:81 - calling connect GET data with headers&#x3a;&#x7b;Authorization&#x3d;&#x5b;eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOlsicmVzdF9hcGkiXSwidXNlcl9uYW1lIjoiQWx2ZWFuQGVrYXBsdXMuY29tIiwic2NvcGUiOlsidHJ1c3QiLCJyZWFkIiwid3JpdGUiXSwiZXhwIjoxNTg4MDc2NjM2LCJhdXRob3JpdGllcyI6WyIxNzIuMTcuMC4xIl0sImp0aSI6ImE1ZTY4ZWVhLTIwNGUtNDllNS1hZjE0LWQyNTNhZTZlMzU5MiIsImNsaWVudF9pZCI6Ijc2NThiYWY2LTk2OTctMzM2Yi1iY2VlLWM4NWM3ZDI0Y2JlZSIsInRpZCI6IjMwYmIzODI1LWU4ZjYtMzFjYy1hMDc1LWMwZjg3YmI0OTc4YyJ9.yFI4PLmxWbkOkCHN_yEnzKx1Y7wKZHxP_BU8hl083ds&#x5d;, Content-Type&#x3d;&#x5b;application&#x2f;json&#x3b;charset&#x3d;UTF-8&#x5d;, X-TenantID&#x3d;&#x5b;review4&#x5d;, Accept&#x3d;&#x5b;application&#x2f;json&#x3b;charset&#x3d;UTF-8&#x5d;&#x7d;, and payload&#x3a;&#x7b;&quot;filterData&quot;&#x3a;&#x7b;&quot;filter&quot;&#x3a;&#x5b;&#x7b;&quot;fieldName&quot;&#x3a;&quot;draftEstimateNo&quot;,&quot;value&quot;&#x3a;&#x5b;&quot;1234&quot;&#x5d;,&quot;operator&quot;&#x3a;&quot;in&quot;&#x7d;&#x5d;&#x7d;&#x7d;
+2020-04-27 14:30:38 ERROR  c.e.c.s.v.CostAppV2Service:33 - Exception while calling ConvertDraftToActualCost 401 
+2020-04-27 14:30:42 DEBUG  c.e.c.c.ContextProvider:29 - Setting currentContext to java.lang.ThreadLocal@3ad0ca68
+2020-04-27 14:30:45 DEBUG  c.e.c.c.v.CostAppV2Controller:81 - In Cost Controller v2 ConvertDraftToActualCost method execution started
+2020-04-27 14:30:45 DEBUG  c.e.c.s.v.CostAppV2Service:81 - calling connect GET data with headers&#x3a;&#x7b;Authorization&#x3d;&#x5b;eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOlsicmVzdF9hcGkiXSwidXNlcl9uYW1lIjoiQWx2ZWFuQGVrYXBsdXMuY29tIiwic2NvcGUiOlsidHJ1c3QiLCJyZWFkIiwid3JpdGUiXSwiZXhwIjoxNTg4MDc2NjM2LCJhdXRob3JpdGllcyI6WyIxNzIuMTcuMC4xIl0sImp0aSI6ImE1ZTY4ZWVhLTIwNGUtNDllNS1hZjE0LWQyNTNhZTZlMzU5MiIsImNsaWVudF9pZCI6Ijc2NThiYWY2LTk2OTctMzM2Yi1iY2VlLWM4NWM3ZDI0Y2JlZSIsInRpZCI6IjMwYmIzODI1LWU4ZjYtMzFjYy1hMDc1LWMwZjg3YmI0OTc4YyJ9.yFI4PLmxWbkOkCHN_yEnzKx1Y7wKZHxP_BU8hl083ds&#x5d;, Content-Type&#x3d;&#x5b;application&#x2f;json&#x3b;charset&#x3d;UTF-8&#x5d;, X-TenantID&#x3d;&#x5b;review4&#x5d;, Accept&#x3d;&#x5b;application&#x2f;json&#x3b;charset&#x3d;UTF-8&#x5d;&#x7d;, and payload&#x3a;&#x7b;&quot;filterData&quot;&#x3a;&#x7b;&quot;filter&quot;&#x3a;&#x5b;&#x7b;&quot;fieldName&quot;&#x3a;&quot;draftEstimateNo&quot;,&quot;value&quot;&#x3a;&#x5b;&quot;1234&quot;&#x5d;,&quot;operator&quot;&#x3a;&quot;in&quot;&#x7d;&#x5d;&#x7d;&#x7d;
+2020-04-27 14:31:31 ERROR  c.e.c.s.v.CostAppV2Service:33 - Exception while calling ConvertDraftToActualCost 401 
+2020-04-27 14:31:34 DEBUG  c.e.c.c.ContextProvider:29 - Setting currentContext to java.lang.ThreadLocal@3ad0ca68
+2020-04-27 14:31:46 DEBUG  c.e.c.c.v.CostAppV2Controller:81 - In Cost Controller v2 ConvertDraftToActualCost method execution started
+2020-04-27 14:32:08 DEBUG  c.e.c.s.v.CostAppV2Service:81 - calling connect GET data with headers&#x3a;&#x7b;Authorization&#x3d;&#x5b;eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOlsicmVzdF9hcGkiXSwidXNlcl9uYW1lIjoiQWx2ZWFuQGVrYXBsdXMuY29tIiwic2NvcGUiOlsidHJ1c3QiLCJyZWFkIiwid3JpdGUiXSwiZXhwIjoxNTg4MDc2NjM2LCJhdXRob3JpdGllcyI6WyIxNzIuMTcuMC4xIl0sImp0aSI6ImE1ZTY4ZWVhLTIwNGUtNDllNS1hZjE0LWQyNTNhZTZlMzU5MiIsImNsaWVudF9pZCI6Ijc2NThiYWY2LTk2OTctMzM2Yi1iY2VlLWM4NWM3ZDI0Y2JlZSIsInRpZCI6IjMwYmIzODI1LWU4ZjYtMzFjYy1hMDc1LWMwZjg3YmI0OTc4YyJ9.yFI4PLmxWbkOkCHN_yEnzKx1Y7wKZHxP_BU8hl083ds&#x5d;, Content-Type&#x3d;&#x5b;application&#x2f;json&#x3b;charset&#x3d;UTF-8&#x5d;, X-TenantID&#x3d;&#x5b;review4&#x5d;, Accept&#x3d;&#x5b;application&#x2f;json&#x3b;charset&#x3d;UTF-8&#x5d;&#x7d;, and payload&#x3a;&#x7b;&quot;filterData&quot;&#x3a;&#x7b;&quot;filter&quot;&#x3a;&#x5b;&#x7b;&quot;fieldName&quot;&#x3a;&quot;draftEstimateNo&quot;,&quot;value&quot;&#x3a;&#x5b;&quot;1234&quot;&#x5d;,&quot;operator&quot;&#x3a;&quot;in&quot;&#x7d;&#x5d;&#x7d;&#x7d;
+2020-04-27 14:34:42 ERROR  c.e.c.s.v.CostAppV2Service:33 - Exception while calling ConvertDraftToActualCost 401 
+2020-04-27 14:35:06 DEBUG  c.e.c.c.ContextProvider:29 - Setting currentContext to java.lang.ThreadLocal@3ad0ca68
+2020-04-27 14:35:12 DEBUG  c.e.c.c.v.CostAppV2Controller:81 - In Cost Controller v2 ConvertDraftToActualCost method execution started
+2020-04-27 14:35:12 DEBUG  c.e.c.s.v.CostAppV2Service:81 - calling connect GET data with headers&#x3a;&#x7b;Authorization&#x3d;&#x5b;eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOlsicmVzdF9hcGkiXSwidXNlcl9uYW1lIjoiQWx2ZWFuQGVrYXBsdXMuY29tIiwic2NvcGUiOlsidHJ1c3QiLCJyZWFkIiwid3JpdGUiXSwiZXhwIjoxNTg4MDc2NjM2LCJhdXRob3JpdGllcyI6WyIxNzIuMTcuMC4xIl0sImp0aSI6ImE1ZTY4ZWVhLTIwNGUtNDllNS1hZjE0LWQyNTNhZTZlMzU5MiIsImNsaWVudF9pZCI6Ijc2NThiYWY2LTk2OTctMzM2Yi1iY2VlLWM4NWM3ZDI0Y2JlZSIsInRpZCI6IjMwYmIzODI1LWU4ZjYtMzFjYy1hMDc1LWMwZjg3YmI0OTc4YyJ9.yFI4PLmxWbkOkCHN_yEnzKx1Y7wKZHxP_BU8hl083ds&#x5d;, Content-Type&#x3d;&#x5b;application&#x2f;json&#x3b;charset&#x3d;UTF-8&#x5d;, X-TenantID&#x3d;&#x5b;review4&#x5d;, Accept&#x3d;&#x5b;application&#x2f;json&#x3b;charset&#x3d;UTF-8&#x5d;&#x7d;, and payload&#x3a;&#x7b;&quot;filterData&quot;&#x3a;&#x7b;&quot;filter&quot;&#x3a;&#x5b;&#x7b;&quot;fieldName&quot;&#x3a;&quot;draftEstimateNo&quot;,&quot;value&quot;&#x3a;&#x5b;&quot;1234&quot;&#x5d;,&quot;operator&quot;&#x3a;&quot;in&quot;&#x7d;&#x5d;&#x7d;&#x7d;
+2020-04-27 14:36:57 ERROR  c.e.c.s.v.CostAppV2Service:33 - Exception while calling ConvertDraftToActualCost 401 
+2020-04-27 14:37:03 DEBUG  c.e.c.c.ContextProvider:29 - Setting currentContext to java.lang.ThreadLocal@3ad0ca68
+2020-04-27 14:37:09 DEBUG  c.e.c.c.v.CostAppV2Controller:81 - In Cost Controller v2 ConvertDraftToActualCost method execution started
+2020-04-27 14:37:09 DEBUG  c.e.c.s.v.CostAppV2Service:81 - calling connect GET data with headers&#x3a;&#x7b;Authorization&#x3d;&#x5b;eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOlsicmVzdF9hcGkiXSwidXNlcl9uYW1lIjoiQWx2ZWFuQGVrYXBsdXMuY29tIiwic2NvcGUiOlsidHJ1c3QiLCJyZWFkIiwid3JpdGUiXSwiZXhwIjoxNTg4MDc2NjM2LCJhdXRob3JpdGllcyI6WyIxNzIuMTcuMC4xIl0sImp0aSI6ImE1ZTY4ZWVhLTIwNGUtNDllNS1hZjE0LWQyNTNhZTZlMzU5MiIsImNsaWVudF9pZCI6Ijc2NThiYWY2LTk2OTctMzM2Yi1iY2VlLWM4NWM3ZDI0Y2JlZSIsInRpZCI6IjMwYmIzODI1LWU4ZjYtMzFjYy1hMDc1LWMwZjg3YmI0OTc4YyJ9.yFI4PLmxWbkOkCHN_yEnzKx1Y7wKZHxP_BU8hl083ds&#x5d;, Content-Type&#x3d;&#x5b;application&#x2f;json&#x3b;charset&#x3d;UTF-8&#x5d;, X-TenantID&#x3d;&#x5b;review4&#x5d;, Accept&#x3d;&#x5b;application&#x2f;json&#x3b;charset&#x3d;UTF-8&#x5d;&#x7d;, and payload&#x3a;&#x7b;&quot;filterData&quot;&#x3a;&#x7b;&quot;filter&quot;&#x3a;&#x5b;&#x7b;&quot;fieldName&quot;&#x3a;&quot;draftEstimateNo&quot;,&quot;value&quot;&#x3a;&#x5b;&quot;1234&quot;&#x5d;,&quot;operator&quot;&#x3a;&quot;in&quot;&#x7d;&#x5d;&#x7d;&#x7d;
+2020-04-27 14:37:09 ERROR  c.e.c.s.v.CostAppV2Service:33 - Exception while calling ConvertDraftToActualCost 401 
+2020-04-27 14:47:25 DEBUG  c.e.c.c.ContextProvider:29 - Setting currentContext to java.lang.ThreadLocal@3ad0ca68
+2020-04-27 14:47:31 DEBUG  c.e.c.c.v.CostAppV2Controller:81 - In Cost Controller v2 ConvertDraftToActualCost method execution started
+2020-04-27 14:47:31 DEBUG  c.e.c.s.v.CostAppV2Service:81 - calling connect GET data with headers&#x3a;&#x7b;Authorization&#x3d;&#x5b;eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOlsicmVzdF9hcGkiXSwidXNlcl9uYW1lIjoiYWRtaW5AZWthcGx1cy5jb20iLCJzY29wZSI6WyJ0cnVzdCIsInJlYWQiLCJ3cml0ZSJdLCJleHAiOjE1ODgwNzc1NTMsImF1dGhvcml0aWVzIjpbIjE3Mi4xNy4wLjEiXSwianRpIjoiZjdkMmI5YmUtYjA4ZS00NTFiLTllOTUtMzZmOWNmODM4YjU2IiwiY2xpZW50X2lkIjoiNzRkN2UxZTQtNzM4ZS0zNzZjLWE0N2QtMTZhZTczNjljYjgxIiwidGlkIjoiN2YyNGQyNDAtNTIxZC0zOTA3LTljOTMtYWYzOTE3MjE1ZWY3In0.Ne7NeXFnfBTX7WgjdmrcIsNS7CMarmEzNNf-sY9yTps&#x5d;, Content-Type&#x3d;&#x5b;application&#x2f;json&#x3b;charset&#x3d;UTF-8&#x5d;, X-TenantID&#x3d;&#x5b;review4&#x5d;, Accept&#x3d;&#x5b;application&#x2f;json&#x3b;charset&#x3d;UTF-8&#x5d;&#x7d;, and payload&#x3a;&#x7b;&quot;filterData&quot;&#x3a;&#x7b;&quot;filter&quot;&#x3a;&#x5b;&#x7b;&quot;fieldName&quot;&#x3a;&quot;draftEstimateNo&quot;,&quot;value&quot;&#x3a;&#x5b;&quot;1234&quot;&#x5d;,&quot;operator&quot;&#x3a;&quot;in&quot;&#x7d;&#x5d;&#x7d;&#x7d;
+2020-04-27 14:47:57 DEBUG  c.e.c.s.CostAppService:81 - calling connect GET data
+2020-04-27 14:47:57 DEBUG  c.e.c.s.CostAppService:81 - headers &#x3a;-&#x7b;Authorization&#x3d;&#x5b;eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOlsicmVzdF9hcGkiXSwidXNlcl9uYW1lIjoiYWRtaW5AZWthcGx1cy5jb20iLCJzY29wZSI6WyJ0cnVzdCIsInJlYWQiLCJ3cml0ZSJdLCJleHAiOjE1ODgwNzc1NTMsImF1dGhvcml0aWVzIjpbIjE3Mi4xNy4wLjEiXSwianRpIjoiZjdkMmI5YmUtYjA4ZS00NTFiLTllOTUtMzZmOWNmODM4YjU2IiwiY2xpZW50X2lkIjoiNzRkN2UxZTQtNzM4ZS0zNzZjLWE0N2QtMTZhZTczNjljYjgxIiwidGlkIjoiN2YyNGQyNDAtNTIxZC0zOTA3LTljOTMtYWYzOTE3MjE1ZWY3In0.Ne7NeXFnfBTX7WgjdmrcIsNS7CMarmEzNNf-sY9yTps&#x5d;, Content-Type&#x3d;&#x5b;application&#x2f;json&#x3b;charset&#x3d;UTF-8&#x5d;, X-TenantID&#x3d;&#x5b;review4&#x5d;, Accept&#x3d;&#x5b;application&#x2f;json&#x3b;charset&#x3d;UTF-8&#x5d;&#x7d;
+2020-04-27 14:47:58 DEBUG  c.e.c.s.CostAppService:81 - getDeletedData parameter inside method fetchCostEstimateDataFromConnectWithoutAnyHandling&#x3d; null
+2020-04-27 14:47:58 DEBUG  c.e.c.s.CostAppService:81 - no. of costestimate data fetched from connect&#x3d;0
+2020-04-27 14:48:04 DEBUG  c.e.c.c.v.CostAppV2Controller:81 - In Cost Controller v2 ConvertDraftToActualCost method execution ends
+2020-04-27 14:48:45 DEBUG  c.e.c.c.ContextProvider:29 - Setting currentContext to java.lang.ThreadLocal@3ad0ca68
+2020-04-27 14:48:49 DEBUG  c.e.c.c.v.CostAppV2Controller:81 - In Cost Controller v2 ConvertDraftToActualCost method execution started
+2020-04-27 14:48:49 DEBUG  c.e.c.s.v.CostAppV2Service:81 - calling connect GET data with headers&#x3a;&#x7b;Authorization&#x3d;&#x5b;eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOlsicmVzdF9hcGkiXSwidXNlcl9uYW1lIjoiYWRtaW5AZWthcGx1cy5jb20iLCJzY29wZSI6WyJ0cnVzdCIsInJlYWQiLCJ3cml0ZSJdLCJleHAiOjE1ODgwNzc1NTMsImF1dGhvcml0aWVzIjpbIjE3Mi4xNy4wLjEiXSwianRpIjoiZjdkMmI5YmUtYjA4ZS00NTFiLTllOTUtMzZmOWNmODM4YjU2IiwiY2xpZW50X2lkIjoiNzRkN2UxZTQtNzM4ZS0zNzZjLWE0N2QtMTZhZTczNjljYjgxIiwidGlkIjoiN2YyNGQyNDAtNTIxZC0zOTA3LTljOTMtYWYzOTE3MjE1ZWY3In0.Ne7NeXFnfBTX7WgjdmrcIsNS7CMarmEzNNf-sY9yTps&#x5d;, Content-Type&#x3d;&#x5b;application&#x2f;json&#x3b;charset&#x3d;UTF-8&#x5d;, X-TenantID&#x3d;&#x5b;review4&#x5d;, Accept&#x3d;&#x5b;application&#x2f;json&#x3b;charset&#x3d;UTF-8&#x5d;&#x7d;, and payload&#x3a;&#x7b;&quot;filterData&quot;&#x3a;&#x7b;&quot;filter&quot;&#x3a;&#x5b;&#x7b;&quot;fieldName&quot;&#x3a;&quot;draftEstimateNo&quot;,&quot;value&quot;&#x3a;&#x5b;&quot;1234&quot;&#x5d;,&quot;operator&quot;&#x3a;&quot;in&quot;&#x7d;&#x5d;&#x7d;&#x7d;
+2020-04-27 14:50:13 DEBUG  c.e.c.s.CostAppService:81 - calling connect GET data
+2020-04-27 14:50:13 DEBUG  c.e.c.s.CostAppService:81 - headers &#x3a;-&#x7b;Authorization&#x3d;&#x5b;eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOlsicmVzdF9hcGkiXSwidXNlcl9uYW1lIjoiYWRtaW5AZWthcGx1cy5jb20iLCJzY29wZSI6WyJ0cnVzdCIsInJlYWQiLCJ3cml0ZSJdLCJleHAiOjE1ODgwNzc1NTMsImF1dGhvcml0aWVzIjpbIjE3Mi4xNy4wLjEiXSwianRpIjoiZjdkMmI5YmUtYjA4ZS00NTFiLTllOTUtMzZmOWNmODM4YjU2IiwiY2xpZW50X2lkIjoiNzRkN2UxZTQtNzM4ZS0zNzZjLWE0N2QtMTZhZTczNjljYjgxIiwidGlkIjoiN2YyNGQyNDAtNTIxZC0zOTA3LTljOTMtYWYzOTE3MjE1ZWY3In0.Ne7NeXFnfBTX7WgjdmrcIsNS7CMarmEzNNf-sY9yTps&#x5d;, Content-Type&#x3d;&#x5b;application&#x2f;json&#x3b;charset&#x3d;UTF-8&#x5d;, X-TenantID&#x3d;&#x5b;review4&#x5d;, Accept&#x3d;&#x5b;application&#x2f;json&#x3b;charset&#x3d;UTF-8&#x5d;&#x7d;
+2020-04-27 14:50:13 DEBUG  c.e.c.s.CostAppService:81 - getDeletedData parameter inside method fetchCostEstimateDataFromConnectWithoutAnyHandling&#x3d; null
+2020-04-27 14:50:14 DEBUG  c.e.c.s.CostAppService:81 - no. of costestimate data fetched from connect&#x3d;0
+2020-04-27 14:50:37 DEBUG  c.e.c.s.v.CostAppV2Service:81 - calling connect POST data with headers &#x3a;-&#x7b;Authorization&#x3d;&#x5b;eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOlsicmVzdF9hcGkiXSwidXNlcl9uYW1lIjoiYWRtaW5AZWthcGx1cy5jb20iLCJzY29wZSI6WyJ0cnVzdCIsInJlYWQiLCJ3cml0ZSJdLCJleHAiOjE1ODgwNzc1NTMsImF1dGhvcml0aWVzIjpbIjE3Mi4xNy4wLjEiXSwianRpIjoiZjdkMmI5YmUtYjA4ZS00NTFiLTllOTUtMzZmOWNmODM4YjU2IiwiY2xpZW50X2lkIjoiNzRkN2UxZTQtNzM4ZS0zNzZjLWE0N2QtMTZhZTczNjljYjgxIiwidGlkIjoiN2YyNGQyNDAtNTIxZC0zOTA3LTljOTMtYWYzOTE3MjE1ZWY3In0.Ne7NeXFnfBTX7WgjdmrcIsNS7CMarmEzNNf-sY9yTps&#x5d;, Content-Type&#x3d;&#x5b;application&#x2f;json&#x3b;charset&#x3d;UTF-8&#x5d;, X-TenantID&#x3d;&#x5b;review4&#x5d;, Accept&#x3d;&#x5b;application&#x2f;json&#x3b;charset&#x3d;UTF-8&#x5d;&#x7d;, and payload&#x3a;&#x5b;&#x7b;itemQty&#x3d;1001, costAmountInBaseCurrencyUnitId&#x3d;CNY, sys__data__state&#x3d;Create, costValue&#x3d;3, isPopUp&#x3d;true, sys__version&#x3d;1, costComponent&#x3d;SCM-89, fxToBaseType&#x3d;Absolute, refType&#x3d;app, costPriceUnitId&#x3d;CM-M0-3, itemQtyUnitId&#x3d;QUM-M0-1, costComponentDisplayName&#x3d;COG PD Schedule, entityActualNo&#x3d;PC-1234-SWA, payInCurId&#x3d;CM-M0-9, sys__state&#x3d;&#x7b;&#x7d;, incExpense&#x3d;CostIncome, estimateForDisplayName&#x3d;Execution &amp; Valuation, shipmentDate&#x3d;31-Mar-2020, costPriceUnitIdDisplayName&#x3d;CNY, draftEstimateNo&#x3d;1234, sys__updatedOn&#x3d;1585555091367, incExpenseDisplayName&#x3d;Income, productId&#x3d;PDM-M2-25, entityType&#x3d;Contract Item, fxToBase&#x3d;1.2, priceType&#x3d;On Call Basis Fixed, refTypeId&#x3d;d33143ac-4164-4a3f-8d30-61d845c9eeed, sys__updatedBy&#x3d;admin&#x40;ekaplus.com, costAmountInBaseCurrency&#x3d;3, userId&#x3d;2924, sys__createdBy&#x3d;admin&#x40;ekaplus.com, estimateFor&#x3d;Execution &amp; Valuation, contractIncoTerm&#x3d;FOB, showMenu&#x3d;false, entityRefNo&#x3d;PCI-1234, corporateCurrency&#x3d;USD, valuationIncoTerm&#x3d;FOB, rateTypePrice&#x3d;absolute, _id&#x3d;5ea65e9269f23f12b9f6a734, sys__createdOn&#x3d;1585306110621, paymentTerm&#x3d;CACD - Cash against email copies of docs, rateTypePriceDisplayName&#x3d;Absolute, object&#x3d;00189ca9-cfc1-4327-95ac-f937f22deb60, sys__UUID&#x3d;8c25d890-88e2-432e-8706-c6aa8a30cde9&#x7d;&#x5d;
+2020-04-27 14:50:45 DEBUG  c.e.c.c.v.CostAppV2Controller:81 - In Cost Controller v2 ConvertDraftToActualCost method execution ends
+2020-04-27 14:52:10 DEBUG  c.e.c.c.ContextProvider:29 - Setting currentContext to java.lang.ThreadLocal@3ad0ca68
+2020-04-27 14:52:13 DEBUG  c.e.c.c.v.CostAppV2Controller:81 - In Cost Controller v2 ConvertDraftToActualCost method execution started
+2020-04-27 14:52:13 DEBUG  c.e.c.s.v.CostAppV2Service:81 - calling connect GET data with headers&#x3a;&#x7b;Authorization&#x3d;&#x5b;eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOlsicmVzdF9hcGkiXSwidXNlcl9uYW1lIjoiYWRtaW5AZWthcGx1cy5jb20iLCJzY29wZSI6WyJ0cnVzdCIsInJlYWQiLCJ3cml0ZSJdLCJleHAiOjE1ODgwNzc1NTMsImF1dGhvcml0aWVzIjpbIjE3Mi4xNy4wLjEiXSwianRpIjoiZjdkMmI5YmUtYjA4ZS00NTFiLTllOTUtMzZmOWNmODM4YjU2IiwiY2xpZW50X2lkIjoiNzRkN2UxZTQtNzM4ZS0zNzZjLWE0N2QtMTZhZTczNjljYjgxIiwidGlkIjoiN2YyNGQyNDAtNTIxZC0zOTA3LTljOTMtYWYzOTE3MjE1ZWY3In0.Ne7NeXFnfBTX7WgjdmrcIsNS7CMarmEzNNf-sY9yTps&#x5d;, Content-Type&#x3d;&#x5b;application&#x2f;json&#x3b;charset&#x3d;UTF-8&#x5d;, X-TenantID&#x3d;&#x5b;review4&#x5d;, Accept&#x3d;&#x5b;application&#x2f;json&#x3b;charset&#x3d;UTF-8&#x5d;&#x7d;, and payload&#x3a;&#x7b;&quot;filterData&quot;&#x3a;&#x7b;&quot;filter&quot;&#x3a;&#x5b;&#x7b;&quot;fieldName&quot;&#x3a;&quot;draftEstimateNo&quot;,&quot;value&quot;&#x3a;&#x5b;&quot;1234&quot;&#x5d;,&quot;operator&quot;&#x3a;&quot;in&quot;&#x7d;&#x5d;&#x7d;&#x7d;
+2020-04-27 14:52:16 DEBUG  c.e.c.s.CostAppService:81 - calling connect GET data
+2020-04-27 14:52:16 DEBUG  c.e.c.s.CostAppService:81 - headers &#x3a;-&#x7b;Authorization&#x3d;&#x5b;eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOlsicmVzdF9hcGkiXSwidXNlcl9uYW1lIjoiYWRtaW5AZWthcGx1cy5jb20iLCJzY29wZSI6WyJ0cnVzdCIsInJlYWQiLCJ3cml0ZSJdLCJleHAiOjE1ODgwNzc1NTMsImF1dGhvcml0aWVzIjpbIjE3Mi4xNy4wLjEiXSwianRpIjoiZjdkMmI5YmUtYjA4ZS00NTFiLTllOTUtMzZmOWNmODM4YjU2IiwiY2xpZW50X2lkIjoiNzRkN2UxZTQtNzM4ZS0zNzZjLWE0N2QtMTZhZTczNjljYjgxIiwidGlkIjoiN2YyNGQyNDAtNTIxZC0zOTA3LTljOTMtYWYzOTE3MjE1ZWY3In0.Ne7NeXFnfBTX7WgjdmrcIsNS7CMarmEzNNf-sY9yTps&#x5d;, Content-Type&#x3d;&#x5b;application&#x2f;json&#x3b;charset&#x3d;UTF-8&#x5d;, X-TenantID&#x3d;&#x5b;review4&#x5d;, Accept&#x3d;&#x5b;application&#x2f;json&#x3b;charset&#x3d;UTF-8&#x5d;&#x7d;
+2020-04-27 14:52:17 DEBUG  c.e.c.s.CostAppService:81 - getDeletedData parameter inside method fetchCostEstimateDataFromConnectWithoutAnyHandling&#x3d; null
+2020-04-27 14:52:17 DEBUG  c.e.c.s.CostAppService:81 - no. of costestimate data fetched from connect&#x3d;1
+2020-04-27 14:52:24 DEBUG  c.e.c.c.v.CostAppV2Controller:81 - In Cost Controller v2 ConvertDraftToActualCost method execution ends
+2020-04-27 14:53:52 INFO   c.e.c.CostApplication:50 - Starting CostApplication on EKA-BLR-L0009 with PID 20860 (D:\Projects\costApp_vikash_CCA-472\cost-app\costapp-api\Code\cost-app-api\bin\main started by Vikash.Kumar in D:\Projects\costApp_vikash_CCA-472\cost-app\costapp-api\Code\cost-app-api)
+2020-04-27 14:53:52 DEBUG  c.e.c.CostApplication:53 - Running with Spring Boot v2.1.1.RELEASE, Spring v5.1.3.RELEASE
+2020-04-27 14:53:52 INFO   c.e.c.CostApplication:675 - No active profile set, falling back to default profiles: default
+2020-04-27 14:53:53 DEBUG  o.h.v.i.e.r.TraversableResolvers:60 - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2020-04-27 14:53:53 DEBUG  o.h.v.m.ResourceBundleMessageInterpolator:89 - Loaded expression factory via original TCCL
+2020-04-27 14:53:53 DEBUG  o.h.v.i.e.r.TraversableResolvers:60 - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2020-04-27 14:53:53 DEBUG  o.h.v.i.e.ConfigurationImpl:148 - Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+2020-04-27 14:53:53 DEBUG  o.h.v.i.e.ConfigurationImpl:180 - Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+2020-04-27 14:53:53 DEBUG  o.h.v.i.e.ConfigurationImpl:194 - Setting custom ParameterNameProvider of type org.springframework.validation.beanvalidation.LocalValidatorFactoryBean$1
+2020-04-27 14:53:53 DEBUG  o.h.v.i.x.c.ValidationXmlParser:120 - Trying to load META-INF/validation.xml for XML based Validator configuration.
+2020-04-27 14:53:53 DEBUG  o.h.v.i.x.c.ResourceLoaderHelper:53 - Trying to load META-INF/validation.xml via user class loader
+2020-04-27 14:53:53 DEBUG  o.h.v.i.x.c.ResourceLoaderHelper:60 - Trying to load META-INF/validation.xml via TCCL
+2020-04-27 14:53:53 DEBUG  o.h.v.i.x.c.ResourceLoaderHelper:66 - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2020-04-27 14:53:53 DEBUG  o.h.v.i.x.c.ValidationXmlParser:127 - No META-INF/validation.xml found. Using annotation based configuration only.
+2020-04-27 14:53:53 DEBUG  o.h.v.i.e.ValidatorFactoryImpl:578 - HV000234: Using org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2020-04-27 14:53:53 DEBUG  o.h.v.i.e.ValidatorFactoryImpl:579 - HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+2020-04-27 14:53:53 DEBUG  o.h.v.i.e.ValidatorFactoryImpl:580 - HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2020-04-27 14:53:53 DEBUG  o.h.v.i.e.ValidatorFactoryImpl:581 - HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2020-04-27 14:53:53 DEBUG  o.h.v.i.e.ValidatorFactoryImpl:582 - HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2020-04-27 14:53:53 DEBUG  r.c.p.Hooks:230 - Enabling stacktrace debugging via onOperatorDebug
+2020-04-27 14:53:53 DEBUG  r.c.p.Hooks:235 - Hooking onEachOperator: onOperatorDebug
+2020-04-27 14:53:53 DEBUG  r.n.t.TcpResources:235 - [http] resources will use the default LoopResources: DefaultLoopResources {prefix=reactor-http, daemon=true, selectCount=8, workerCount=8}
+2020-04-27 14:53:53 DEBUG  r.n.t.TcpResources:235 - [http] resources will use the default ConnectionProvider: PooledConnectionProvider {name=http, poolFactory=reactor.netty.resources.ConnectionProvider$$Lambda$472/621429988@feb9d1c}
+2020-04-27 14:53:53 INFO   c.e.c.CostApplication:59 - Started CostApplication in 1.074 seconds (JVM running for 2093.651)
+2020-04-27 14:55:10 INFO   c.e.c.CostApplication:50 - Starting CostApplication on EKA-BLR-L0009 with PID 20860 (D:\Projects\costApp_vikash_CCA-472\cost-app\costapp-api\Code\cost-app-api\bin\main started by Vikash.Kumar in D:\Projects\costApp_vikash_CCA-472\cost-app\costapp-api\Code\cost-app-api)
+2020-04-27 14:55:10 DEBUG  c.e.c.CostApplication:53 - Running with Spring Boot v2.1.1.RELEASE, Spring v5.1.3.RELEASE
+2020-04-27 14:55:10 INFO   c.e.c.CostApplication:675 - No active profile set, falling back to default profiles: default
+2020-04-27 14:55:11 DEBUG  o.h.v.i.e.r.TraversableResolvers:60 - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2020-04-27 14:55:11 DEBUG  o.h.v.m.ResourceBundleMessageInterpolator:89 - Loaded expression factory via original TCCL
+2020-04-27 14:55:11 DEBUG  o.h.v.i.e.r.TraversableResolvers:60 - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2020-04-27 14:55:11 DEBUG  o.h.v.i.e.ConfigurationImpl:148 - Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+2020-04-27 14:55:11 DEBUG  o.h.v.i.e.ConfigurationImpl:180 - Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+2020-04-27 14:55:11 DEBUG  o.h.v.i.e.ConfigurationImpl:194 - Setting custom ParameterNameProvider of type org.springframework.validation.beanvalidation.LocalValidatorFactoryBean$1
+2020-04-27 14:55:11 DEBUG  o.h.v.i.x.c.ValidationXmlParser:120 - Trying to load META-INF/validation.xml for XML based Validator configuration.
+2020-04-27 14:55:11 DEBUG  o.h.v.i.x.c.ResourceLoaderHelper:53 - Trying to load META-INF/validation.xml via user class loader
+2020-04-27 14:55:11 DEBUG  o.h.v.i.x.c.ResourceLoaderHelper:60 - Trying to load META-INF/validation.xml via TCCL
+2020-04-27 14:55:11 DEBUG  o.h.v.i.x.c.ResourceLoaderHelper:66 - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2020-04-27 14:55:11 DEBUG  o.h.v.i.x.c.ValidationXmlParser:127 - No META-INF/validation.xml found. Using annotation based configuration only.
+2020-04-27 14:55:11 DEBUG  o.h.v.i.e.ValidatorFactoryImpl:578 - HV000234: Using org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2020-04-27 14:55:11 DEBUG  o.h.v.i.e.ValidatorFactoryImpl:579 - HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+2020-04-27 14:55:11 DEBUG  o.h.v.i.e.ValidatorFactoryImpl:580 - HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2020-04-27 14:55:11 DEBUG  o.h.v.i.e.ValidatorFactoryImpl:581 - HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2020-04-27 14:55:11 DEBUG  o.h.v.i.e.ValidatorFactoryImpl:582 - HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2020-04-27 14:55:11 DEBUG  r.c.p.Hooks:230 - Enabling stacktrace debugging via onOperatorDebug
+2020-04-27 14:55:11 DEBUG  r.c.p.Hooks:235 - Hooking onEachOperator: onOperatorDebug
+2020-04-27 14:55:11 DEBUG  r.n.t.TcpResources:235 - [http] resources will use the default LoopResources: DefaultLoopResources {prefix=reactor-http, daemon=true, selectCount=8, workerCount=8}
+2020-04-27 14:55:11 DEBUG  r.n.t.TcpResources:235 - [http] resources will use the default ConnectionProvider: PooledConnectionProvider {name=http, poolFactory=reactor.netty.resources.ConnectionProvider$$Lambda$472/621429988@feb9d1c}
+2020-04-27 14:55:11 INFO   c.e.c.CostApplication:59 - Started CostApplication in 1.005 seconds (JVM running for 2172.293)
+2020-04-27 14:55:38 INFO   c.e.c.CostApplication:50 - Starting CostApplication on EKA-BLR-L0009 with PID 20860 (D:\Projects\costApp_vikash_CCA-472\cost-app\costapp-api\Code\cost-app-api\bin\main started by Vikash.Kumar in D:\Projects\costApp_vikash_CCA-472\cost-app\costapp-api\Code\cost-app-api)
+2020-04-27 14:55:38 DEBUG  c.e.c.CostApplication:53 - Running with Spring Boot v2.1.1.RELEASE, Spring v5.1.3.RELEASE
+2020-04-27 14:55:38 INFO   c.e.c.CostApplication:675 - No active profile set, falling back to default profiles: default
+2020-04-27 14:55:38 DEBUG  o.h.v.i.e.r.TraversableResolvers:60 - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2020-04-27 14:55:38 DEBUG  o.h.v.m.ResourceBundleMessageInterpolator:89 - Loaded expression factory via original TCCL
+2020-04-27 14:55:38 DEBUG  o.h.v.i.e.r.TraversableResolvers:60 - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2020-04-27 14:55:38 DEBUG  o.h.v.i.e.ConfigurationImpl:148 - Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+2020-04-27 14:55:38 DEBUG  o.h.v.i.e.ConfigurationImpl:180 - Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+2020-04-27 14:55:38 DEBUG  o.h.v.i.e.ConfigurationImpl:194 - Setting custom ParameterNameProvider of type org.springframework.validation.beanvalidation.LocalValidatorFactoryBean$1
+2020-04-27 14:55:38 DEBUG  o.h.v.i.x.c.ValidationXmlParser:120 - Trying to load META-INF/validation.xml for XML based Validator configuration.
+2020-04-27 14:55:38 DEBUG  o.h.v.i.x.c.ResourceLoaderHelper:53 - Trying to load META-INF/validation.xml via user class loader
+2020-04-27 14:55:38 DEBUG  o.h.v.i.x.c.ResourceLoaderHelper:60 - Trying to load META-INF/validation.xml via TCCL
+2020-04-27 14:55:38 DEBUG  o.h.v.i.x.c.ResourceLoaderHelper:66 - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2020-04-27 14:55:38 DEBUG  o.h.v.i.x.c.ValidationXmlParser:127 - No META-INF/validation.xml found. Using annotation based configuration only.
+2020-04-27 14:55:38 DEBUG  o.h.v.i.e.ValidatorFactoryImpl:578 - HV000234: Using org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2020-04-27 14:55:38 DEBUG  o.h.v.i.e.ValidatorFactoryImpl:579 - HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+2020-04-27 14:55:38 DEBUG  o.h.v.i.e.ValidatorFactoryImpl:580 - HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2020-04-27 14:55:38 DEBUG  o.h.v.i.e.ValidatorFactoryImpl:581 - HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2020-04-27 14:55:38 DEBUG  o.h.v.i.e.ValidatorFactoryImpl:582 - HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2020-04-27 14:55:38 DEBUG  r.c.p.Hooks:230 - Enabling stacktrace debugging via onOperatorDebug
+2020-04-27 14:55:38 DEBUG  r.c.p.Hooks:235 - Hooking onEachOperator: onOperatorDebug
+2020-04-27 14:55:38 DEBUG  r.n.t.TcpResources:235 - [http] resources will use the default LoopResources: DefaultLoopResources {prefix=reactor-http, daemon=true, selectCount=8, workerCount=8}
+2020-04-27 14:55:38 DEBUG  r.n.t.TcpResources:235 - [http] resources will use the default ConnectionProvider: PooledConnectionProvider {name=http, poolFactory=reactor.netty.resources.ConnectionProvider$$Lambda$472/621429988@feb9d1c}
+2020-04-27 14:55:38 INFO   c.e.c.CostApplication:59 - Started CostApplication in 0.806 seconds (JVM running for 2199.201)
+2020-04-27 14:56:00 INFO   c.e.c.CostApplication:50 - Starting CostApplication on EKA-BLR-L0009 with PID 20860 (D:\Projects\costApp_vikash_CCA-472\cost-app\costapp-api\Code\cost-app-api\bin\main started by Vikash.Kumar in D:\Projects\costApp_vikash_CCA-472\cost-app\costapp-api\Code\cost-app-api)
+2020-04-27 14:56:00 DEBUG  c.e.c.CostApplication:53 - Running with Spring Boot v2.1.1.RELEASE, Spring v5.1.3.RELEASE
+2020-04-27 14:56:00 INFO   c.e.c.CostApplication:675 - No active profile set, falling back to default profiles: default
+2020-04-27 14:56:01 DEBUG  o.h.v.i.e.r.TraversableResolvers:60 - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2020-04-27 14:56:01 DEBUG  o.h.v.m.ResourceBundleMessageInterpolator:89 - Loaded expression factory via original TCCL
+2020-04-27 14:56:01 DEBUG  o.h.v.i.e.r.TraversableResolvers:60 - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2020-04-27 14:56:01 DEBUG  o.h.v.i.e.ConfigurationImpl:148 - Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+2020-04-27 14:56:01 DEBUG  o.h.v.i.e.ConfigurationImpl:180 - Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+2020-04-27 14:56:01 DEBUG  o.h.v.i.e.ConfigurationImpl:194 - Setting custom ParameterNameProvider of type org.springframework.validation.beanvalidation.LocalValidatorFactoryBean$1
+2020-04-27 14:56:01 DEBUG  o.h.v.i.x.c.ValidationXmlParser:120 - Trying to load META-INF/validation.xml for XML based Validator configuration.
+2020-04-27 14:56:01 DEBUG  o.h.v.i.x.c.ResourceLoaderHelper:53 - Trying to load META-INF/validation.xml via user class loader
+2020-04-27 14:56:01 DEBUG  o.h.v.i.x.c.ResourceLoaderHelper:60 - Trying to load META-INF/validation.xml via TCCL
+2020-04-27 14:56:01 DEBUG  o.h.v.i.x.c.ResourceLoaderHelper:66 - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2020-04-27 14:56:01 DEBUG  o.h.v.i.x.c.ValidationXmlParser:127 - No META-INF/validation.xml found. Using annotation based configuration only.
+2020-04-27 14:56:01 DEBUG  o.h.v.i.e.ValidatorFactoryImpl:578 - HV000234: Using org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2020-04-27 14:56:01 DEBUG  o.h.v.i.e.ValidatorFactoryImpl:579 - HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+2020-04-27 14:56:01 DEBUG  o.h.v.i.e.ValidatorFactoryImpl:580 - HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2020-04-27 14:56:01 DEBUG  o.h.v.i.e.ValidatorFactoryImpl:581 - HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2020-04-27 14:56:01 DEBUG  o.h.v.i.e.ValidatorFactoryImpl:582 - HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2020-04-27 14:56:01 DEBUG  r.c.p.Hooks:230 - Enabling stacktrace debugging via onOperatorDebug
+2020-04-27 14:56:01 DEBUG  r.c.p.Hooks:235 - Hooking onEachOperator: onOperatorDebug
+2020-04-27 14:56:01 DEBUG  r.n.t.TcpResources:235 - [http] resources will use the default LoopResources: DefaultLoopResources {prefix=reactor-http, daemon=true, selectCount=8, workerCount=8}
+2020-04-27 14:56:01 DEBUG  r.n.t.TcpResources:235 - [http] resources will use the default ConnectionProvider: PooledConnectionProvider {name=http, poolFactory=reactor.netty.resources.ConnectionProvider$$Lambda$472/621429988@feb9d1c}
+2020-04-27 14:56:01 INFO   c.e.c.CostApplication:59 - Started CostApplication in 0.759 seconds (JVM running for 2222.067)
+2020-04-27 14:56:24 DEBUG  o.h.v.m.ResourceBundleMessageInterpolator:89 - Loaded expression factory via original TCCL
+2020-04-27 14:56:24 DEBUG  o.h.v.i.e.ValidatorFactoryImpl:578 - HV000234: Using org.hibernate.validator.messageinterpolation.ResourceBundleMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2020-04-27 14:56:24 DEBUG  o.h.v.i.e.ValidatorFactoryImpl:579 - HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+2020-04-27 14:56:24 DEBUG  o.h.v.i.e.ValidatorFactoryImpl:580 - HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2020-04-27 14:56:24 DEBUG  o.h.v.i.e.ValidatorFactoryImpl:581 - HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2020-04-27 14:56:24 INFO   c.e.c.CostApplication:50 - Starting CostApplication on EKA-BLR-L0009 with PID 1384 (D:\Projects\costApp_vikash_CCA-472\cost-app\costapp-api\Code\cost-app-api\bin\main started by Vikash.Kumar in D:\Projects\costApp_vikash_CCA-472\cost-app\costapp-api\Code\cost-app-api)
+2020-04-27 14:56:24 DEBUG  o.h.v.i.e.ValidatorFactoryImpl:582 - HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2020-04-27 14:56:24 DEBUG  c.e.c.CostApplication:53 - Running with Spring Boot v2.1.1.RELEASE, Spring v5.1.3.RELEASE
+2020-04-27 14:56:24 INFO   c.e.c.CostApplication:675 - No active profile set, falling back to default profiles: default
+2020-04-27 14:56:28 DEBUG  o.h.v.i.e.r.TraversableResolvers:60 - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2020-04-27 14:56:28 DEBUG  o.h.v.m.ResourceBundleMessageInterpolator:89 - Loaded expression factory via original TCCL
+2020-04-27 14:56:28 DEBUG  o.h.v.i.e.r.TraversableResolvers:60 - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2020-04-27 14:56:28 DEBUG  o.h.v.i.e.ConfigurationImpl:148 - Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+2020-04-27 14:56:28 DEBUG  o.h.v.i.e.ConfigurationImpl:180 - Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+2020-04-27 14:56:28 DEBUG  o.h.v.i.e.ConfigurationImpl:194 - Setting custom ParameterNameProvider of type org.springframework.validation.beanvalidation.LocalValidatorFactoryBean$1
+2020-04-27 14:56:28 DEBUG  o.h.v.i.x.c.ValidationXmlParser:120 - Trying to load META-INF/validation.xml for XML based Validator configuration.
+2020-04-27 14:56:28 DEBUG  o.h.v.i.x.c.ResourceLoaderHelper:53 - Trying to load META-INF/validation.xml via user class loader
+2020-04-27 14:56:28 DEBUG  o.h.v.i.x.c.ResourceLoaderHelper:60 - Trying to load META-INF/validation.xml via TCCL
+2020-04-27 14:56:28 DEBUG  o.h.v.i.x.c.ResourceLoaderHelper:66 - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2020-04-27 14:56:28 DEBUG  o.h.v.i.x.c.ValidationXmlParser:127 - No META-INF/validation.xml found. Using annotation based configuration only.
+2020-04-27 14:56:28 DEBUG  o.h.v.i.e.ValidatorFactoryImpl:578 - HV000234: Using org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2020-04-27 14:56:28 DEBUG  o.h.v.i.e.ValidatorFactoryImpl:579 - HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+2020-04-27 14:56:28 DEBUG  o.h.v.i.e.ValidatorFactoryImpl:580 - HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2020-04-27 14:56:28 DEBUG  o.h.v.i.e.ValidatorFactoryImpl:581 - HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2020-04-27 14:56:28 DEBUG  o.h.v.i.e.ValidatorFactoryImpl:582 - HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2020-04-27 14:56:29 DEBUG  r.u.Loggers$LoggerFactory:230 - Using Slf4j logging framework
+2020-04-27 14:56:29 DEBUG  r.c.p.Hooks:230 - Enabling stacktrace debugging via onOperatorDebug
+2020-04-27 14:56:29 DEBUG  r.c.p.Hooks:235 - Hooking onEachOperator: onOperatorDebug
+2020-04-27 14:56:29 DEBUG  i.n.u.i.l.InternalLoggerFactory:43 - Using SLF4J as the default logging framework
+2020-04-27 14:56:29 DEBUG  i.n.u.i.PlatformDependent:959 - Platform: Windows
+2020-04-27 14:56:29 DEBUG  i.n.u.i.PlatformDependent0:395 - -Dio.netty.noUnsafe: false
+2020-04-27 14:56:29 DEBUG  i.n.u.i.PlatformDependent0:871 - Java version: 8
+2020-04-27 14:56:29 DEBUG  i.n.u.i.PlatformDependent0:120 - sun.misc.Unsafe.theUnsafe: available
+2020-04-27 14:56:29 DEBUG  i.n.u.i.PlatformDependent0:144 - sun.misc.Unsafe.copyMemory: available
+2020-04-27 14:56:29 DEBUG  i.n.u.i.PlatformDependent0:182 - java.nio.Buffer.address: available
+2020-04-27 14:56:29 DEBUG  i.n.u.i.PlatformDependent0:243 - direct buffer constructor: available
+2020-04-27 14:56:29 DEBUG  i.n.u.i.PlatformDependent0:313 - java.nio.Bits.unaligned: available, true
+2020-04-27 14:56:29 DEBUG  i.n.u.i.PlatformDependent0:378 - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9
+2020-04-27 14:56:29 DEBUG  i.n.u.i.PlatformDependent0:385 - java.nio.DirectByteBuffer.<init>(long, int): available
+2020-04-27 14:56:29 DEBUG  i.n.u.i.PlatformDependent:996 - sun.misc.Unsafe: available
+2020-04-27 14:56:29 DEBUG  i.n.u.i.PlatformDependent:1090 - -Dio.netty.tmpdir: C:\Users\VIKASH~1.KUM\AppData\Local\Temp (java.io.tmpdir)
+2020-04-27 14:56:29 DEBUG  i.n.u.i.PlatformDependent:1169 - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2020-04-27 14:56:29 DEBUG  i.n.u.i.PlatformDependent:158 - -Dio.netty.maxDirectMemory: 3786407936 bytes
+2020-04-27 14:56:29 DEBUG  i.n.u.i.PlatformDependent:164 - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+2020-04-27 14:56:29 DEBUG  i.n.u.i.CleanerJava6:92 - java.nio.ByteBuffer.cleaner(): available
+2020-04-27 14:56:29 DEBUG  i.n.u.i.PlatformDependent:184 - -Dio.netty.noPreferDirect: false
+2020-04-27 14:56:29 DEBUG  r.n.t.TcpResources:235 - [http] resources will use the default LoopResources: DefaultLoopResources {prefix=reactor-http, daemon=true, selectCount=8, workerCount=8}
+2020-04-27 14:56:29 DEBUG  r.n.t.TcpResources:235 - [http] resources will use the default ConnectionProvider: PooledConnectionProvider {name=http, poolFactory=reactor.netty.resources.ConnectionProvider$$Lambda$472/1495713944@242c94e4}
+2020-04-27 14:56:29 DEBUG  i.n.u.ResourceLeakDetector:121 - -Dio.netty.leakDetection.level: simple
+2020-04-27 14:56:29 DEBUG  i.n.u.ResourceLeakDetector:122 - -Dio.netty.leakDetection.targetRecords: 4
+2020-04-27 14:56:29 DEBUG  i.n.b.PooledByteBufAllocator:120 - -Dio.netty.allocator.numHeapArenas: 16
+2020-04-27 14:56:29 DEBUG  i.n.b.PooledByteBufAllocator:121 - -Dio.netty.allocator.numDirectArenas: 16
+2020-04-27 14:56:29 DEBUG  i.n.b.PooledByteBufAllocator:123 - -Dio.netty.allocator.pageSize: 8192
+2020-04-27 14:56:29 DEBUG  i.n.b.PooledByteBufAllocator:128 - -Dio.netty.allocator.maxOrder: 11
+2020-04-27 14:56:29 DEBUG  i.n.b.PooledByteBufAllocator:132 - -Dio.netty.allocator.chunkSize: 16777216
+2020-04-27 14:56:29 DEBUG  i.n.b.PooledByteBufAllocator:133 - -Dio.netty.allocator.tinyCacheSize: 512
+2020-04-27 14:56:29 DEBUG  i.n.b.PooledByteBufAllocator:134 - -Dio.netty.allocator.smallCacheSize: 256
+2020-04-27 14:56:29 DEBUG  i.n.b.PooledByteBufAllocator:135 - -Dio.netty.allocator.normalCacheSize: 64
+2020-04-27 14:56:29 DEBUG  i.n.b.PooledByteBufAllocator:136 - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+2020-04-27 14:56:29 DEBUG  i.n.b.PooledByteBufAllocator:137 - -Dio.netty.allocator.cacheTrimInterval: 8192
+2020-04-27 14:56:29 DEBUG  i.n.b.PooledByteBufAllocator:138 - -Dio.netty.allocator.useCacheForAllThreads: true
+2020-04-27 14:56:29 DEBUG  i.n.u.i.InternalThreadLocalMap:54 - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+2020-04-27 14:56:29 DEBUG  i.n.u.i.InternalThreadLocalMap:57 - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+2020-04-27 14:56:29 DEBUG  i.n.u.NetUtil:139 - -Djava.net.preferIPv4Stack: false
+2020-04-27 14:56:29 DEBUG  i.n.u.NetUtil:140 - -Djava.net.preferIPv6Addresses: false
+2020-04-27 14:56:30 DEBUG  i.n.u.NetUtil:224 - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+2020-04-27 14:56:30 DEBUG  i.n.u.NetUtil:289 - Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+2020-04-27 14:56:30 INFO   c.e.c.CostApplication:59 - Started CostApplication in 6.679 seconds (JVM running for 7.973)
+2020-04-27 14:56:56 DEBUG  c.e.c.c.ContextProvider:29 - Setting currentContext to java.lang.ThreadLocal@282e205f
+2020-04-27 14:56:59 DEBUG  c.e.c.c.v.CostAppV2Controller:81 - In Cost Controller v2 ConvertDraftToActualCost method execution started
+2020-04-27 14:56:59 DEBUG  c.e.c.s.v.CostAppV2Service:81 - calling connect GET data with headers&#x3a;&#x7b;Authorization&#x3d;&#x5b;eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOlsicmVzdF9hcGkiXSwidXNlcl9uYW1lIjoiYWRtaW5AZWthcGx1cy5jb20iLCJzY29wZSI6WyJ0cnVzdCIsInJlYWQiLCJ3cml0ZSJdLCJleHAiOjE1ODgwNzc1NTMsImF1dGhvcml0aWVzIjpbIjE3Mi4xNy4wLjEiXSwianRpIjoiZjdkMmI5YmUtYjA4ZS00NTFiLTllOTUtMzZmOWNmODM4YjU2IiwiY2xpZW50X2lkIjoiNzRkN2UxZTQtNzM4ZS0zNzZjLWE0N2QtMTZhZTczNjljYjgxIiwidGlkIjoiN2YyNGQyNDAtNTIxZC0zOTA3LTljOTMtYWYzOTE3MjE1ZWY3In0.Ne7NeXFnfBTX7WgjdmrcIsNS7CMarmEzNNf-sY9yTps&#x5d;, Content-Type&#x3d;&#x5b;application&#x2f;json&#x3b;charset&#x3d;UTF-8&#x5d;, X-TenantID&#x3d;&#x5b;review4&#x5d;, Accept&#x3d;&#x5b;application&#x2f;json&#x3b;charset&#x3d;UTF-8&#x5d;&#x7d;, and payload&#x3a;&#x7b;&quot;filterData&quot;&#x3a;&#x7b;&quot;filter&quot;&#x3a;&#x5b;&#x7b;&quot;fieldName&quot;&#x3a;&quot;draftEstimateNo&quot;,&quot;value&quot;&#x3a;&#x5b;&quot;1234&quot;&#x5d;,&quot;operator&quot;&#x3a;&quot;in&quot;&#x7d;&#x5d;&#x7d;&#x7d;
+2020-04-27 14:57:00 DEBUG  c.e.c.s.CostAppService:81 - calling connect GET data
+2020-04-27 14:57:00 DEBUG  c.e.c.s.CostAppService:81 - headers &#x3a;-&#x7b;Authorization&#x3d;&#x5b;eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOlsicmVzdF9hcGkiXSwidXNlcl9uYW1lIjoiYWRtaW5AZWthcGx1cy5jb20iLCJzY29wZSI6WyJ0cnVzdCIsInJlYWQiLCJ3cml0ZSJdLCJleHAiOjE1ODgwNzc1NTMsImF1dGhvcml0aWVzIjpbIjE3Mi4xNy4wLjEiXSwianRpIjoiZjdkMmI5YmUtYjA4ZS00NTFiLTllOTUtMzZmOWNmODM4YjU2IiwiY2xpZW50X2lkIjoiNzRkN2UxZTQtNzM4ZS0zNzZjLWE0N2QtMTZhZTczNjljYjgxIiwidGlkIjoiN2YyNGQyNDAtNTIxZC0zOTA3LTljOTMtYWYzOTE3MjE1ZWY3In0.Ne7NeXFnfBTX7WgjdmrcIsNS7CMarmEzNNf-sY9yTps&#x5d;, Content-Type&#x3d;&#x5b;application&#x2f;json&#x3b;charset&#x3d;UTF-8&#x5d;, X-TenantID&#x3d;&#x5b;review4&#x5d;, Accept&#x3d;&#x5b;application&#x2f;json&#x3b;charset&#x3d;UTF-8&#x5d;&#x7d;
+2020-04-27 14:57:00 DEBUG  c.e.c.s.CostAppService:81 - getDeletedData parameter inside method fetchCostEstimateDataFromConnectWithoutAnyHandling&#x3d; null
+2020-04-27 14:57:01 DEBUG  c.e.c.s.CostAppService:81 - no. of costestimate data fetched from connect&#x3d;0
+2020-04-27 14:57:01 DEBUG  c.e.c.s.v.CostAppV2Service:81 - calling connect POST data with headers &#x3a;-&#x7b;Authorization&#x3d;&#x5b;eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOlsicmVzdF9hcGkiXSwidXNlcl9uYW1lIjoiYWRtaW5AZWthcGx1cy5jb20iLCJzY29wZSI6WyJ0cnVzdCIsInJlYWQiLCJ3cml0ZSJdLCJleHAiOjE1ODgwNzc1NTMsImF1dGhvcml0aWVzIjpbIjE3Mi4xNy4wLjEiXSwianRpIjoiZjdkMmI5YmUtYjA4ZS00NTFiLTllOTUtMzZmOWNmODM4YjU2IiwiY2xpZW50X2lkIjoiNzRkN2UxZTQtNzM4ZS0zNzZjLWE0N2QtMTZhZTczNjljYjgxIiwidGlkIjoiN2YyNGQyNDAtNTIxZC0zOTA3LTljOTMtYWYzOTE3MjE1ZWY3In0.Ne7NeXFnfBTX7WgjdmrcIsNS7CMarmEzNNf-sY9yTps&#x5d;, Content-Type&#x3d;&#x5b;application&#x2f;json&#x3b;charset&#x3d;UTF-8&#x5d;, X-TenantID&#x3d;&#x5b;review4&#x5d;, Accept&#x3d;&#x5b;application&#x2f;json&#x3b;charset&#x3d;UTF-8&#x5d;&#x7d;, and payload&#x3a;&#x5b;&#x7b;itemQty&#x3d;45, costAmountInBaseCurrencyUnitId&#x3d;CNY, sys__data__state&#x3d;Create, costValue&#x3d;3, isPopUp&#x3d;true, sys__version&#x3d;1, costComponent&#x3d;SCM-89, fxToBaseType&#x3d;Absolute, refType&#x3d;app, costPriceUnitId&#x3d;CM-M0-3, itemQtyUnitId&#x3d;QUM-M0-1, costComponentDisplayName&#x3d;COG PD Schedule, entityActualNo&#x3d;PC-1234-SWA, payInCurId&#x3d;CM-M0-9, sys__state&#x3d;&#x7b;&#x7d;, incExpense&#x3d;CostIncome, estimateForDisplayName&#x3d;Execution &amp; Valuation, shipmentDate&#x3d;31-Mar-2020, costPriceUnitIdDisplayName&#x3d;CNY, draftEstimateNo&#x3d;1234, sys__updatedOn&#x3d;1585555091367, incExpenseDisplayName&#x3d;Income, product&#x3d;Rice, productId&#x3d;PDM-M2-25, entityType&#x3d;Contract Item, fxToBase&#x3d;1.2, priceType&#x3d;On Call Basis Fixed, refTypeId&#x3d;d33143ac-4164-4a3f-8d30-61d845c9eeed, sys__updatedBy&#x3d;admin&#x40;ekaplus.com, costAmountInBaseCurrency&#x3d;3, userId&#x3d;2924, quality&#x3d;Good, sys__createdBy&#x3d;admin&#x40;ekaplus.com, estimateFor&#x3d;Execution &amp; Valuation, contractIncoTerm&#x3d;FOB, showMenu&#x3d;false, entityRefNo&#x3d;PCI-1234, corporateCurrency&#x3d;USD, valuationIncoTerm&#x3d;FOB, rateTypePrice&#x3d;absolute, _id&#x3d;5ea65e9269f23f12b9f6a734, sys__createdOn&#x3d;1585306110621, paymentTerm&#x3d;CACD - Cash against email copies of docs, rateTypePriceDisplayName&#x3d;Absolute, object&#x3d;00189ca9-cfc1-4327-95ac-f937f22deb60, sys__UUID&#x3d;8c25d890-88e2-432e-8706-c6aa8a30cde9&#x7d;&#x5d;
+2020-04-27 14:57:01 DEBUG  c.e.c.c.v.CostAppV2Controller:81 - In Cost Controller v2 ConvertDraftToActualCost method execution ends
+2020-04-27 14:58:10 DEBUG  c.e.c.c.ContextProvider:29 - Setting currentContext to java.lang.ThreadLocal@282e205f
+2020-04-27 14:58:10 DEBUG  c.e.c.c.v.CostAppV2Controller:81 - In Cost Controller v2 ConvertDraftToActualCost method execution started
+2020-04-27 14:58:10 DEBUG  c.e.c.s.v.CostAppV2Service:81 - calling connect GET data with headers&#x3a;&#x7b;Authorization&#x3d;&#x5b;eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOlsicmVzdF9hcGkiXSwidXNlcl9uYW1lIjoiYWRtaW5AZWthcGx1cy5jb20iLCJzY29wZSI6WyJ0cnVzdCIsInJlYWQiLCJ3cml0ZSJdLCJleHAiOjE1ODgwNzc1NTMsImF1dGhvcml0aWVzIjpbIjE3Mi4xNy4wLjEiXSwianRpIjoiZjdkMmI5YmUtYjA4ZS00NTFiLTllOTUtMzZmOWNmODM4YjU2IiwiY2xpZW50X2lkIjoiNzRkN2UxZTQtNzM4ZS0zNzZjLWE0N2QtMTZhZTczNjljYjgxIiwidGlkIjoiN2YyNGQyNDAtNTIxZC0zOTA3LTljOTMtYWYzOTE3MjE1ZWY3In0.Ne7NeXFnfBTX7WgjdmrcIsNS7CMarmEzNNf-sY9yTps&#x5d;, Content-Type&#x3d;&#x5b;application&#x2f;json&#x3b;charset&#x3d;UTF-8&#x5d;, X-TenantID&#x3d;&#x5b;review4&#x5d;, Accept&#x3d;&#x5b;application&#x2f;json&#x3b;charset&#x3d;UTF-8&#x5d;&#x7d; ,payload&#x7b;&quot;filterData&quot;&#x3a;&#x7b;&quot;filter&quot;&#x3a;&#x5b;&#x7b;&quot;fieldName&quot;&#x3a;&quot;draftEstimateNo&quot;,&quot;value&quot;&#x3a;&#x5b;&quot;1234&quot;&#x5d;,&quot;operator&quot;&#x3a;&quot;in&quot;&#x7d;&#x5d;&#x7d;&#x7d;
+2020-04-27 14:58:11 DEBUG  c.e.c.s.v.CostAppV2Service:81 - calling connect GET data with headers&#x3a;&#x7b;Authorization&#x3d;&#x5b;eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOlsicmVzdF9hcGkiXSwidXNlcl9uYW1lIjoiYWRtaW5AZWthcGx1cy5jb20iLCJzY29wZSI6WyJ0cnVzdCIsInJlYWQiLCJ3cml0ZSJdLCJleHAiOjE1ODgwNzc1NTMsImF1dGhvcml0aWVzIjpbIjE3Mi4xNy4wLjEiXSwianRpIjoiZjdkMmI5YmUtYjA4ZS00NTFiLTllOTUtMzZmOWNmODM4YjU2IiwiY2xpZW50X2lkIjoiNzRkN2UxZTQtNzM4ZS0zNzZjLWE0N2QtMTZhZTczNjljYjgxIiwidGlkIjoiN2YyNGQyNDAtNTIxZC0zOTA3LTljOTMtYWYzOTE3MjE1ZWY3In0.Ne7NeXFnfBTX7WgjdmrcIsNS7CMarmEzNNf-sY9yTps&#x5d;, Content-Type&#x3d;&#x5b;application&#x2f;json&#x3b;charset&#x3d;UTF-8&#x5d;, X-TenantID&#x3d;&#x5b;review4&#x5d;, Accept&#x3d;&#x5b;application&#x2f;json&#x3b;charset&#x3d;UTF-8&#x5d;&#x7d; ,payload&#x7b;&quot;filterData&quot;&#x3a;&#x7b;&quot;filter&quot;&#x3a;&#x5b;&#x7b;&quot;fieldName&quot;&#x3a;&quot;entityRefNo&quot;,&quot;value&quot;&#x3a;&#x5b;&quot;PCI-1234&quot;&#x5d;,&quot;operator&quot;&#x3a;&quot;in&quot;&#x7d;&#x5d;&#x7d;&#x7d;
+2020-04-27 14:58:11 DEBUG  c.e.c.s.v.CostAppV2Service:81 - no of actual estimates fetched&#x3a;0
+2020-04-27 14:58:11 DEBUG  c.e.c.s.v.CostAppV2Service:81 - no of draft estimates fetched&#x3a;1
+2020-04-27 14:58:11 DEBUG  c.e.c.s.v.CostAppV2Service:81 - calling connect POST data with headers &#x3a;-&#x7b;Authorization&#x3d;&#x5b;eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOlsicmVzdF9hcGkiXSwidXNlcl9uYW1lIjoiYWRtaW5AZWthcGx1cy5jb20iLCJzY29wZSI6WyJ0cnVzdCIsInJlYWQiLCJ3cml0ZSJdLCJleHAiOjE1ODgwNzc1NTMsImF1dGhvcml0aWVzIjpbIjE3Mi4xNy4wLjEiXSwianRpIjoiZjdkMmI5YmUtYjA4ZS00NTFiLTllOTUtMzZmOWNmODM4YjU2IiwiY2xpZW50X2lkIjoiNzRkN2UxZTQtNzM4ZS0zNzZjLWE0N2QtMTZhZTczNjljYjgxIiwidGlkIjoiN2YyNGQyNDAtNTIxZC0zOTA3LTljOTMtYWYzOTE3MjE1ZWY3In0.Ne7NeXFnfBTX7WgjdmrcIsNS7CMarmEzNNf-sY9yTps&#x5d;, Content-Type&#x3d;&#x5b;application&#x2f;json&#x3b;charset&#x3d;UTF-8&#x5d;, X-TenantID&#x3d;&#x5b;review4&#x5d;, Accept&#x3d;&#x5b;application&#x2f;json&#x3b;charset&#x3d;UTF-8&#x5d;&#x7d;
+2020-04-27 14:58:12 DEBUG  c.e.c.c.v.CostAppV2Controller:81 - In Cost Controller v2 ConvertDraftToActualCost method execution ends
